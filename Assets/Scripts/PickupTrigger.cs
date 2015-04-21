@@ -26,14 +26,16 @@ public class PickupTrigger : MonoBehaviour {
 */
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.green;
-        Gizmos.DrawSphere(this.transform.position, 5);
+        Color c = Color.green;
+        c.a = 0.5f;
+        Gizmos.color = c;
+        Gizmos.DrawSphere(this.transform.position, 1);
     }
     private void Update()
     {
         if (checkObjects)
         {
-            Collider[] cols = Physics.OverlapSphere(this.transform.position, 5);
+            Collider[] cols = Physics.OverlapSphere(this.transform.position, 1);
             foreach (Collider col in cols)
             {
                 if (col.tag == "Player")
