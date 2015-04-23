@@ -23,5 +23,9 @@ public class PickupGesture : MonoBehaviour {
         {
             palm.GrabObject();
         }
+        else
+        {
+            palm.ReleaseObject();
+        }
     }
 }
