@@ -44,9 +44,9 @@ public class Mood : MonoBehaviour {
 		bool changeMood = true;
 		if(_currentMood != moodToCheck && _moodCooldown >= Time.time)
 		{
-			foreach(float feelings in moodAndFeeling)
+			foreach(KeyValuePair<Moods, float> value in moodAndFeeling)
 			{
-				if(moodAndFeeling[feelings] != moodToCheck && moodAndFeeling[moodToCheck] < feelings)
+				if(value.Key != moodToCheck && moodAndFeeling[moodToCheck] < value.Value)
 				{
 					changeMood = false;
 					break;
