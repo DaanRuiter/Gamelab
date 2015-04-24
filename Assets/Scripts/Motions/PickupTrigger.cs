@@ -34,7 +34,7 @@ public class PickupTrigger : MonoBehaviour {
         if (objectInTrigger != null)
         {
             GetComponent<HingeJoint>().connectedBody = objectInTrigger.GetComponent<Rigidbody>();
-            //objectInTrigger.GetComponent<Rigidbody>().isKinematic = true;
+            objectInTrigger.transform.parent = transform;
             objectInTrigger.GetComponent<Renderer>().material.color = Color.green;
             checkObjects = false;
         }
@@ -44,7 +44,7 @@ public class PickupTrigger : MonoBehaviour {
     {
         if (GetComponent<HingeJoint>().connectedBody != null)
         {
-           // GetComponent<HingeJoint>().connectedBody.isKinematic = false;
+            GetComponent<HingeJoint>().connectedBody.transform.parent = null;
             GetComponent<HingeJoint>().connectedBody.gameObject.GetComponent<Renderer>().material.color = Color.white;
         }
         GetComponent<HingeJoint>().connectedBody = null;
