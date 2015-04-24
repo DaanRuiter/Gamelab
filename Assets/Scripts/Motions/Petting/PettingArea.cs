@@ -58,8 +58,5 @@ public class PettingArea : MonoBehaviour {
 
         GameObject.FindGameObjectWithTag("Cat").GetComponent<Mood>().happyFeeling += pettingValue;
         Debug.Log(GameObject.FindGameObjectWithTag("Cat").GetComponent<Mood>().happyFeeling);
-
-        //_enterPosition = Vector3.zero;
-        //_exitPosition = Vector3.zero;
     }
 }
