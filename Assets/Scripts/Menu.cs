@@ -11,9 +11,11 @@ public class Menu : MonoBehaviour {
 	[SerializeField]private GameObject _optionsCanvas;
 	public void PlayGame()
 	{
+		Debug.Log("Play game");
 		StartCoroutine(MoveButton(_playButton));
 		StartCoroutine(FadeButton(_creditsButton));
 		StartCoroutine(FadeButton(_optionsButton));
+
 	}
 	public void OpenCredits()
 	{
