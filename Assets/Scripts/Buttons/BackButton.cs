@@ -1,7 +1,7 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
-public class PlayButton : Button {
+public class BackButton : Button {
 	private Menu _menu;
 	void Awake()
 	{
@@ -9,6 +9,6 @@ public class PlayButton : Button {
 	}
 	protected override void PressButton ()
 	{
-		_menu.PlayGame();
+		_menu.BackToMenu();
 	}
 }
