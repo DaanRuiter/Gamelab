@@ -7,14 +7,22 @@ public class PlayButton : ButtonHandler {
 	{
 		_menu = GameObject.FindGameObjectWithTag(Tags.Menu).GetComponent<Menu>();
 	}
-	protected override void FireButtonEnd ()
+	protected override void buttonReleased ()
 	{
 		//Release button
 	}
 	
-	protected override void FireButtonStart ()
+	protected override void buttonPressed ()
 	{
 		Debug.Log("Button Pressed");
 		_menu.PlayGame();
 	}
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if(other.transform.tag == "RightFinger")
+        {
+            Debug.Log("click");
+        }
+    }
 }

@@ -16,12 +16,12 @@ public class ButtonHandler : MonoBehaviour {
 	protected float m_localCushionThickness;
 	protected bool m_isPressed = false;
 	
-	protected virtual void FireButtonEnd ()
+	protected virtual void buttonPressed ()
 	{
 		//Release button
 	}
 	
-	protected virtual void FireButtonStart ()
+	protected virtual void buttonReleased ()
 	{
 		//Activate button
 	}
@@ -39,7 +39,7 @@ public class ButtonHandler : MonoBehaviour {
 			if (transform.localPosition.z > m_localTriggerDistance)
 			{
 				m_isPressed = true;
-				FireButtonStart();
+				buttonPressed();
 			}
 		}
 		else if (m_isPressed == true)
@@ -47,7 +47,7 @@ public class ButtonHandler : MonoBehaviour {
 			if (transform.localPosition.z < (m_localTriggerDistance - m_localCushionThickness))
 			{
 				m_isPressed = false;
-				FireButtonEnd();
+				buttonReleased();
 			}
 		}
 	}
