@@ -49,6 +49,7 @@ public class PetBehavior : MonoBehaviour {
 			} 
 			else if(_foodBowl != null)
 			{
+				_hasAttention = true;
 				if(Vector3.Distance(this.transform.position,_foodBowl.position) >= _walkRange)
 				{
 					MoveTowards(_foodBowl);

@@ -15,14 +15,18 @@ public class Mood : MonoBehaviour {
 	public float moodCooldown;
 	public float awayCooldown;
 
+	private PetBehavior _myBehavior;
 	private Moods _currentMood;
 	private bool _isDoingNothing;
 	private float _moodCooldown;
 	private float _happyFeeling;
 	private float _boredFeeling;
 	private float _angryFeeling;
-	private float _awayTimer;
 	private Dictionary<Moods, float> moodAndFeeling = new Dictionary<Moods, float>();
+	void Awake()
+	{
+		_myBehavior = GetComponent<PetBehavior>();
+	}
 	// Use this for initialization
 	void Start () {
 		_currentMood = Moods.Happy;
@@ -38,21 +42,16 @@ public class Mood : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//TODO if doing nothing.
-		if(_currentMood == Moods.Happy && _isDoingNothing)
+		if(_currentMood == Moods.Happy && !_myBehavior.hasAttention)
 		{
 			if(_happyFeeling != 0)
 				_happyFeeling -= 0.1f;
 			if(_boredFeeling != 100)
 				_boredFeeling += 0.1f;
 		}
-		if(!_isDoingNothing && _awayTimer >= Time.time)
-		{
-			_isDoingNothing = true;
-		}
 	}
 	private void CheckMood(Moods moodToCheck)
 	{
-		_awayTimer = Time.time + awayCooldown;
 		bool changeMood = true;
 		if(_currentMood != moodToCheck && _moodCooldown >= Time.time)
 		{
@@ -72,7 +71,6 @@ public class Mood : MonoBehaviour {
 	}
 	public void ChangeMood(Moods mood)
 	{
-		_awayTimer = Time.time + awayCooldown;
 		if(_moodCooldown >= Time.time)
 		{
 			_currentMood = mood;

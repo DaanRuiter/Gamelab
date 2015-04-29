@@ -6,10 +6,15 @@ public class PettingArea : MonoBehaviour {
 
     public float pettingMultiplier = 1f;
 
+	private PetBehavior _myBehavior;
     private Vector3 _enterPosition = Vector3.zero;
     private Vector3 _exitPosition = Vector3.zero;
 	private float _startingTime;
 	private float _endTime;
+	void Awake()
+	{
+		_myBehavior = GetComponent<PetBehavior>();
+	}
 
     private void OnDrawGizmos()
     {
@@ -28,6 +33,7 @@ public class PettingArea : MonoBehaviour {
     {
         if(other.transform.tag == "Palm")
         {
+			_myBehavior.hasAttention = true;
             Debug.Log("Enter");
 			_startingTime = Time.time;
             GameObject collisionPoint = new GameObject("Collision Point");
