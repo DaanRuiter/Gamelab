@@ -8,6 +8,8 @@ public class PettingArea : MonoBehaviour {
 
     private Vector3 _enterPosition = Vector3.zero;
     private Vector3 _exitPosition = Vector3.zero;
+	private float _startingTime;
+	private float _endTime;
 
     private void OnDrawGizmos()
     {
@@ -27,6 +29,7 @@ public class PettingArea : MonoBehaviour {
         if(other.transform.tag == "Palm")
         {
             Debug.Log("Enter");
+			_startingTime = Time.time;
             GameObject collisionPoint = new GameObject("Collision Point");
             collisionPoint.transform.position = other.transform.position;
             collisionPoint.transform.parent = transform;
@@ -41,6 +44,7 @@ public class PettingArea : MonoBehaviour {
         if (other.transform.tag == "Palm")
         {
             Debug.Log("Exit");
+			_endTime = Time.time;
             GameObject collisionPoint = new GameObject("Collision Point");
             collisionPoint.transform.position = other.transform.position;
             collisionPoint.transform.parent = transform;
@@ -55,8 +59,17 @@ public class PettingArea : MonoBehaviour {
     {
         float distance = Vector3.Distance(_enterPosition, _exitPosition);
         float pettingValue = distance * pettingMultiplier;
-
-        GameObject.FindGameObjectWithTag("Cat").GetComponent<Mood>().happyFeeling += pettingValue;
-        Debug.Log(GameObject.FindGameObjectWithTag("Cat").GetComponent<Mood>().happyFeeling);
+		float speed = _startingTime - _endTime;
+		Mood petMood = GameObject.FindGameObjectWithTag("Cat").GetComponent<Mood>();
+		if(speed > 0.5)
+		{
+			petMood.happyFeeling += pettingValue;
+	        Debug.Log(GameObject.FindGameObjectWithTag("Cat").GetComponent<Mood>().happyFeeling);
+		} 
+		else 
+		{
+			petMood.ChangeMood(Moods.Annoyed);
+			petMood.angryFeeling += pettingValue;
+		}
     }
 }

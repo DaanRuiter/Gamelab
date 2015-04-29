@@ -3,6 +3,8 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class Menu : MonoBehaviour {
+	private PetBehavior _petBehavior;
+
 	[SerializeField]private GameObject _playButton;
 	[SerializeField]private GameObject _creditsButton;
 	[SerializeField]private GameObject _optionsButton;
@@ -23,10 +25,16 @@ public class Menu : MonoBehaviour {
 		oldCreditsButtonPos = _creditsButton.GetComponent<RectTransform>().position;
 		oldOptionsButtonPos = _optionsButton.GetComponent<RectTransform>().position;
 	} */
+	void Awake()
+	{
+		_petBehavior = GameObject.FindGameObjectWithTag(Tags.Pet).GetComponent<PetBehavior>();
+	}
+
 	public void PlayGame()
 	{
 		Debug.Log("Play game");
 		_menuCanvas.SetActive(false);
+		_petBehavior.isSleeping = false;
 		//TODO: enable cat actions
 	}
 	public void OpenCredits()
