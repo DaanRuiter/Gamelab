@@ -26,36 +26,40 @@ public class Menu : MonoBehaviour {
 		Debug.Log("Play game");
 		StartCoroutine(MoveButton(_playButton));
 		StartCoroutine(FadeButton(_creditsButton));
-		if(StartCoroutine(FadeButton(_optionsButton)))
+        StartCoroutine(FadeButton(_optionsButton));
+        /*
+		if())
 		{
 			ResetButton(_playButton);
 			ResetButton(_optionsButton);
 			ResetButton(_creditsButton);
 			this.gameObject.SetActive(false);
 			//TODO: enable cat actions
-		}
+		} */
 	}
+    
 	public void OpenCredits()
 	{
-		StartCoroutine(MoveButton(_creditsButton));
-		StartCoroutine(FadeButton(_optionsButton));
-		if(StartCoroutine(FadeButton(_playButton)))
-		{
-			_creditsCanvas.SetActive(true);
-		}
+        /*StartCoroutine(MoveButton(_creditsButton));
+        StartCoroutine(FadeButton(_optionsButton));
+        if(StartCoroutine(FadeButton(_playButton)))
+        {
+            _creditsCanvas.SetActive(true);
+        }*/
 	}
 	public void OpenOptions()
 	{
-		StartCoroutine(MoveButton(_optionsButton));
-		StartCoroutine(FadeButton(_creditsButton));
-		if(StartCoroutine(FadeButton(_playButton)))
-		{
-			_optionsCanvas.SetActive(true);
-		}
+        /*StartCoroutine(MoveButton(_optionsButton));
+        StartCoroutine(FadeButton(_creditsButton));
+        if(StartCoroutine(FadeButton(_playButton)))
+        {
+            _optionsCanvas.SetActive(true);
+        }*/
 	}
-	public void BackToMenu()
+     
+    public void BackToMenu()
 	{
-		if(StartCoroutine(_backButton))
+		/*if(StartCoroutine(_backButton))
 		{
 			ResetButton(_playButton);
 			ResetButton(_creditsButton);
@@ -64,7 +68,7 @@ public class Menu : MonoBehaviour {
 				_creditsCanvas.SetActive(false);
 			if(_optionsCanvas.activeInHierarchy)
 				_optionsCanvas.SetActive(false);
-		}
+		}*/
 	}
 	private void ResetButton(GameObject button)
 	{
@@ -102,6 +106,5 @@ public class Menu : MonoBehaviour {
 			}
 			yield return new WaitForEndOfFrame();
 		}
-		return true;
 	}
 }

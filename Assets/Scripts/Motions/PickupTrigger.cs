@@ -19,6 +19,7 @@ public class PickupTrigger : MonoBehaviour {
         if (checkObjects)
         {
             Collider[] cols = Physics.OverlapSphere(this.transform.position, grabRange);
+            bool objectStillInHand = false;
             foreach (Collider col in cols)
             {
                 if (col.tag == "Player")
@@ -26,6 +27,7 @@ public class PickupTrigger : MonoBehaviour {
                     objectInTrigger = col.gameObject;
                     break;
                 }
+                //if()
             }
         }
     }
@@ -56,6 +58,14 @@ public class PickupTrigger : MonoBehaviour {
         if (GetComponent<HingeJoint>().connectedBody != null)
         {
             GetComponent<HingeJoint>().connectedBody.gameObject.GetComponent<Renderer>().material.color = Color.white;
+        }
+    }
+
+    public GameObject ObjectInHand
+    {
+        get
+        {
+            return null;
         }
     }
 }

@@ -10,11 +10,11 @@ public class ContentTrigger : MonoBehaviour {
         _tray = tray;
     }
 
-	private void OnTriggerEnter(Collider other)
+    public void OnParticleCollision(GameObject particleSystem)
     {
-        if(other.transform.tag == _tray.contentTag)
+        if(particleSystem.transform.tag == "Food")
         {
-
+            _tray.OnFoodCollection();
         }
     }
 }
