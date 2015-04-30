@@ -24,5 +24,6 @@ public class FoodTrayButton : Button {
 		GameObject newFoodTray = Instantiate(foodTray,spawnPoint.position,spawnPoint.rotation) as GameObject;
 		_currentFoodTray = newFoodTray;
 		PropList.allProps.Add(_currentFoodTray.gameObject);
+		GameObject.FindGameObjectWithTag(Tags.Pet).GetComponent<PetBehavior>().ShowFoodBowl(_currentFoodTray.transform);
 	}
 }
