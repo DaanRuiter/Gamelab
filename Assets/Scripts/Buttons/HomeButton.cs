@@ -11,6 +11,7 @@ public class HomeButton : Button {
 			PropList.allProps.Remove(prop);
 		}
 		menu.SetActive(true);
-		//TODO: Disable cat actions
+		GameObject currentPet = GameObject.FindGameObjectWithTag(Tags.Pet);
+		currentPet.GetComponent<PetBehavior>().isSleeping = true;
 	}
 }

@@ -15,11 +15,16 @@ public class PetBehavior : MonoBehaviour {
 	private float _attentionTime;
 	private float _rotationSpeed;
 	private float _speed;
+	private Animator _petAnimator;
+	private Animator _faceAnimator;
+	private string  _oldFaceAnimation;
 
 	public Transform[] allNodes = new Transform[0];
 	void Awake()
 	{
 		_myMood = GetComponent<Mood>();
+		//_faceAnimator = petFace.GetComponent<Animator>();
+		//_petAnimator = GetComponent<Animator>();
 	}
 
 	// Use this for initialization
@@ -58,7 +63,24 @@ public class PetBehavior : MonoBehaviour {
 				{
 					EatFood();
 				}
-			} 
+			}
+			//else if(_petAnimator.GetBool("Eating"))
+			//{
+			//	_petAnimator.SetBool("Eating", false);
+			//	_faceAnimator.SetBool("Eating", false);
+			//}
+		}
+	}
+	public void SetFaceAnimator(bool isBool,string animName,bool boolean)
+	{
+		_faceAnimator.SetBool(_oldFaceAnimation, false);
+		if(isBool)
+		{
+			_faceAnimator.SetBool(animName, boolean);
+			_oldFaceAnimation = animName;
+		} else
+		{
+			_faceAnimator.SetTrigger(animName);
 		}
 	}
 	public void ShowFoodBowl(Transform bowlTransform)
@@ -68,10 +90,13 @@ public class PetBehavior : MonoBehaviour {
 	private void EatFood()
 	{
 		//TODO: show anim + add Mood
+		//_petAnimator.SetBool("Eating", true);
+		//_faceAnimator.SetBool("Eating", true);
 		_myMood.happyFeeling += 0.1f;
 	}
 	private void MoveTowards(Transform trans)
 	{
+		//_petAnimator.SetBool("Walking", true);
 		this.transform.position = Vector3.MoveTowards(this.transform.position,trans.position, _speed * Time.deltaTime);
 		Vector3 relativePos = trans.position - this.transform.position;
 		Quaternion lookAt = Quaternion.LookRotation(relativePos);
@@ -87,9 +112,9 @@ public class PetBehavior : MonoBehaviour {
 		{
 			if(_justMoved)
 			{
+				//_petAnimator.SetBool("Walking",false);
 				_justMoved = false;
 				_waitingCooldown = Time.time + _waitingTime;
-				Debug.Log(_waitingCooldown);
 			}
 			if(_waitingCooldown <= Time.time)
 			{

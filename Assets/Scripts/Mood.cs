@@ -23,6 +23,7 @@ public class Mood : MonoBehaviour {
 	private float _boredFeeling;
 	private float _angryFeeling;
 	private Dictionary<Moods, float> moodAndFeeling = new Dictionary<Moods, float>();
+	private Dictionary<Moods, string> moodAndAnimation = new Dictionary<Moods, string>();
 	void Awake()
 	{
 		_myBehavior = GetComponent<PetBehavior>();
@@ -37,6 +38,12 @@ public class Mood : MonoBehaviour {
 		moodAndFeeling.Add(Moods.Angry, _angryFeeling);
 		moodAndFeeling.Add(Moods.Happy, _happyFeeling);
 		moodAndFeeling.Add(Moods.Bored, _boredFeeling);
+
+		moodAndAnimation.Add(Moods.Angry, "isAngry");
+		moodAndAnimation.Add(Moods.Bored, "isBored");
+		moodAndAnimation.Add(Moods.Annoyed, "isAnnoyed");
+		moodAndAnimation.Add(Moods.Happy, "isHappy");
+		moodAndAnimation.Add(Moods.Scared, "isScared");
 	}
 	
 	// Update is called once per frame
@@ -44,6 +51,7 @@ public class Mood : MonoBehaviour {
 		//TODO if doing nothing.
 		if(_currentMood == Moods.Happy && !_myBehavior.hasAttention)
 		{
+			//_myBehavior.SetFaceAnimator(true,"NoAttention",true);
 			if(_happyFeeling != 0)
 				_happyFeeling -= 0.1f;
 			if(_boredFeeling != 100)
@@ -66,6 +74,7 @@ public class Mood : MonoBehaviour {
 			if(changeMood)
 			{
 				_currentMood = moodToCheck;
+				_myBehavior.SetFaceAnimator(true,moodAndAnimation[_currentMood],true);
 			}
 		}
 	}
