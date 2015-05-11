@@ -1,7 +1,11 @@
 fileFormatVersion: 2
 guid: 1449f20a7557045f8acbf8e79f5159f9
 timeCreated: 1427237439
+<<<<<<< HEAD
 licenseType: Pro
+=======
+licenseType: Store
+>>>>>>> c8cff35d33cdda6faaa3a964ae1f6f094519a88b
 PluginImporter:
   serializedVersion: 1
   iconMap: {}
@@ -11,6 +15,7 @@ PluginImporter:
     Any:
       enabled: 1
       settings: {}
+<<<<<<< HEAD
     Editor:
       enabled: 0
       settings:
@@ -48,6 +53,8 @@ PluginImporter:
       enabled: 0
       settings:
         CPU: AnyCPU
+=======
+>>>>>>> c8cff35d33cdda6faaa3a964ae1f6f094519a88b
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 guid: d0e1e83f693ab5e40a61ea3b270fb52b
+<<<<<<< HEAD
 PluginImporter:
   serializedVersion: 1
   iconMap: {}
@@ -49,3 +50,7 @@ PluginImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+=======
+DefaultImporter:
+  userData: 
+>>>>>>> c8cff35d33cdda6faaa3a964ae1f6f094519a88b

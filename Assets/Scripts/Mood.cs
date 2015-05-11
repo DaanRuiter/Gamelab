@@ -2,22 +2,31 @@
 using System.Collections;
 using System.Collections.Generic;
 
+public enum Moods
+{
+	Happy,
+	Angry,
+	Bored,
+	Annoyed,
+	Scared
+}
+
 public class Mood : MonoBehaviour {
 	public float moodCooldown;
-	enum Moods
-	{
-		Happy,
-		Angry,
-		Bored,
-		Annoyed,
-		Scared
-	}
+	public float awayCooldown;
+
+	private PetBehavior _myBehavior;
 	private Moods _currentMood;
+	private bool _isDoingNothing;
 	private float _moodCooldown;
 	private float _happyFeeling;
 	private float _boredFeeling;
 	private float _angryFeeling;
 	private Dictionary<Moods, float> moodAndFeeling = new Dictionary<Moods, float>();
+	void Awake()
+	{
+		_myBehavior = GetComponent<PetBehavior>();
+	}
 	// Use this for initialization
 	void Start () {
 		_currentMood = Moods.Happy;
@@ -33,10 +42,12 @@ public class Mood : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//TODO if doing nothing.
-		if(_currentMood == Moods.Happy)
+		if(_currentMood == Moods.Happy && !_myBehavior.hasAttention)
 		{
-			_happyFeeling--;
-			_boredFeeling++;
+			if(_happyFeeling != 0)
+				_happyFeeling -= 0.1f;
+			if(_boredFeeling != 100)
+				_boredFeeling += 0.1f;
 		}
 	}
 	private void CheckMood(Moods moodToCheck)
@@ -58,19 +69,11 @@ public class Mood : MonoBehaviour {
 			}
 		}
 	}
-	public void ScarePet()
+	public void ChangeMood(Moods mood)
 	{
 		if(_moodCooldown >= Time.time)
 		{
-			_currentMood = Moods.Scared;
-			_moodCooldown = Time.time + moodCooldown;
-		}
-	}
-	public void AnnoyPet()
-	{
-		if(_moodCooldown >= Time.time)
-		{
-			_currentMood = Moods.Annoyed;
+			_currentMood = mood;
 			_moodCooldown = Time.time + moodCooldown;
 		}
 	}
