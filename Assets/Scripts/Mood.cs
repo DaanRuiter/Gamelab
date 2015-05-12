@@ -9,7 +9,7 @@ public enum Moods
 	Angry,
 	Bored,
 	Annoyed,
-	Scared
+	Sad
 }
 
 public class Mood : MonoBehaviour {
@@ -41,12 +41,12 @@ public class Mood : MonoBehaviour {
 		moodAndFeeling.Add(Moods.Angry, _angryFeeling);
 		moodAndFeeling.Add(Moods.Happy, _happyFeeling);
 		moodAndFeeling.Add(Moods.Bored, _boredFeeling);
+		moodAndFeeling.Add(Moods.Sad, _happyFeeling);
 
 		moodAndAnimation.Add(Moods.Angry, "isAngry");
 		moodAndAnimation.Add(Moods.Bored, "isBored");
 		moodAndAnimation.Add(Moods.Annoyed, "isAnnoyed");
 		moodAndAnimation.Add(Moods.Happy, "isHappy");
-		moodAndAnimation.Add(Moods.Scared, "isScared");
 	}
 	
 	// Update is called once per frame
@@ -72,6 +72,13 @@ public class Mood : MonoBehaviour {
 				{
 					changeMood = false;
 					break;
+				}
+			}
+			if(moodToCheck == Moods.Sad)
+			{
+				if(moodAndFeeling[moodToCheck] < 25)
+				{
+					changeMood = true;
 				}
 			}
 			if(changeMood)
@@ -109,6 +116,7 @@ public class Mood : MonoBehaviour {
 		set{
 			_happyFeeling = value;
 			CheckMood(Moods.Happy);
+			CheckMood(Moods.Sad);
 		}
 	}
 	public float boredFeeling
