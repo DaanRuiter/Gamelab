@@ -27,51 +27,26 @@ public class Menu : MonoBehaviour {
 	} */
 	void Awake()
 	{
-		_petBehavior = GameObject.FindGameObjectWithTag(Tags.Pet).GetComponent<PetBehavior>();
+		_petBehavior = GameObject.FindGameObjectWithTag(Tags.Cat).GetComponent<PetBehavior>();
 	}
 
 	public void PlayGame()
 	{
 		Debug.Log("Play game");
-<<<<<<< HEAD
-		StartCoroutine(MoveButton(_playButton));
-		StartCoroutine(FadeButton(_creditsButton));
-        StartCoroutine(FadeButton(_optionsButton));
-        /*
-		if())
-		{
-			ResetButton(_playButton);
-			ResetButton(_optionsButton);
-			ResetButton(_creditsButton);
-			this.gameObject.SetActive(false);
-			//TODO: enable cat actions
-		} */
-=======
+
 		_menuCanvas.SetActive(false);
 		_petBehavior.isSleeping = false;
 		//TODO: enable cat actions
->>>>>>> c8cff35d33cdda6faaa3a964ae1f6f094519a88b
 	}
     
 	public void OpenCredits()
 	{
-<<<<<<< HEAD
         /*StartCoroutine(MoveButton(_creditsButton));
         StartCoroutine(FadeButton(_optionsButton));
         if(StartCoroutine(FadeButton(_playButton)))
         {
             _creditsCanvas.SetActive(true);
         }*/
-	}
-	public void OpenOptions()
-	{
-        /*StartCoroutine(MoveButton(_optionsButton));
-        StartCoroutine(FadeButton(_creditsButton));
-        if(StartCoroutine(FadeButton(_playButton)))
-        {
-            _optionsCanvas.SetActive(true);
-        }*/
-=======
 		_menuCanvas.SetActive(false);
 		_creditsCanvas.SetActive(true);
 	}
@@ -79,29 +54,16 @@ public class Menu : MonoBehaviour {
 	{
 		_menuCanvas.SetActive(false);
 		_optionsCanvas.SetActive(true);
->>>>>>> c8cff35d33cdda6faaa3a964ae1f6f094519a88b
 	}
      
     public void BackToMenu()
 	{
-<<<<<<< HEAD
-		/*if(StartCoroutine(_backButton))
-		{
-			ResetButton(_playButton);
-			ResetButton(_creditsButton);
-			ResetButton(_optionsButton);
-			if(_creditsCanvas.activeInHierarchy)
-				_creditsCanvas.SetActive(false);
-			if(_optionsCanvas.activeInHierarchy)
-				_optionsCanvas.SetActive(false);
-		}*/
-=======
+		
 		_menuCanvas.SetActive(true);
 		if(_creditsCanvas.activeInHierarchy)
 			_creditsCanvas.SetActive(false);
 		if(_optionsCanvas.activeInHierarchy)
 			_optionsCanvas.SetActive(false);
->>>>>>> c8cff35d33cdda6faaa3a964ae1f6f094519a88b
 	}
 	/*
 	private void ResetButton(GameObject button)
@@ -140,9 +102,5 @@ public class Menu : MonoBehaviour {
 			}
 			yield return new WaitForEndOfFrame();
 		}
-<<<<<<< HEAD
-	}
-=======
 	} */
->>>>>>> c8cff35d33cdda6faaa3a964ae1f6f094519a88b
 }

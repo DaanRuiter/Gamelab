@@ -5,8 +5,10 @@ using System.Collections;
 public class PettingArea : MonoBehaviour {
 
     public float pettingMultiplier = 1f;
+    public string areaTag = "Untagged";
 
-	private PetBehavior _myBehavior;
+    private PetBehavior _myBehavior;
+    private Mood _petMood;
     private Vector3 _enterPosition = Vector3.zero;
     private Vector3 _exitPosition = Vector3.zero;
 	private float _startingTime;
@@ -14,6 +16,7 @@ public class PettingArea : MonoBehaviour {
 	void Awake()
 	{
 		_myBehavior = GetComponent<PetBehavior>();
+        _petMood = GameObject.FindGameObjectWithTag("Cat").GetComponent<Mood>();
 	}
 
     private void OnDrawGizmos()
@@ -66,16 +69,23 @@ public class PettingArea : MonoBehaviour {
         float distance = Vector3.Distance(_enterPosition, _exitPosition);
         float pettingValue = distance * pettingMultiplier;
 		float speed = _startingTime - _endTime;
-		Mood petMood = GameObject.FindGameObjectWithTag("Cat").GetComponent<Mood>();
 		if(speed > 0.5)
 		{
-			petMood.happyFeeling += pettingValue;
+			_petMood.happyFeeling += pettingValue;
 	        Debug.Log(GameObject.FindGameObjectWithTag("Cat").GetComponent<Mood>().happyFeeling);
 		} 
 		else 
 		{
-			petMood.ChangeMood(Moods.Annoyed);
-			petMood.angryFeeling += pettingValue;
+			_petMood.ChangeMood(Moods.Annoyed);
+			_petMood.angryFeeling += pettingValue;
 		}
+    }
+
+    public string AreaTag
+    {
+        get
+        {
+            return areaTag;
+        }
     }
 }

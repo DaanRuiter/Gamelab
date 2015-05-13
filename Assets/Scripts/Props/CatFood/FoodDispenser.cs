@@ -22,7 +22,6 @@ public class FoodDispenser : MonoBehaviour
         Debug.DrawRay(transform.position, transform.forward * 3, Color.cyan);
         if (Physics.Raycast(_ray, out hit, 150, groundLayerMask))
         {
-            Debug.Log(hit.transform.tag);
             if(hit.transform.tag == "Ground")
             {
                 _foodDispenser.enableEmission = true;
@@ -31,6 +30,10 @@ public class FoodDispenser : MonoBehaviour
             {
                 _foodDispenser.enableEmission = false;
             }
+        }
+        else
+        {
+            _foodDispenser.enableEmission = false;
         }
     }
 }

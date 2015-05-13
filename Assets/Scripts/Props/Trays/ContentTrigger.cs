@@ -12,6 +12,7 @@ public class ContentTrigger : MonoBehaviour {
 
     public void OnParticleCollision(GameObject particleSystem)
     {
+        Debug.Log(particleSystem.transform.tag);
         if(particleSystem.transform.tag == "Food")
         {
             _tray.OnFoodCollection();

@@ -44,20 +44,23 @@ public class PickupTrigger : MonoBehaviour {
 
     public void ReleaseObject()
     {
-        if (GetComponent<HingeJoint>().connectedBody != null)
+        if(GetComponent<HingeJoint>())
         {
-            GetComponent<HingeJoint>().connectedBody.transform.parent = null;
-            GetComponent<HingeJoint>().connectedBody.gameObject.GetComponent<Renderer>().material.color = Color.white;
+            if (GetComponent<HingeJoint>().connectedBody != null)
+            {
+                GetComponent<HingeJoint>().connectedBody.transform.parent = null;
+                GetComponent<HingeJoint>().connectedBody.gameObject.GetComponent<Renderer>().material.color = Color.white;
+            }
+            GetComponent<HingeJoint>().connectedBody = null;
+            checkObjects = true;
         }
-        GetComponent<HingeJoint>().connectedBody = null;
-        checkObjects = true;
     }
 
     public void OnDestroy()
     {
-        if (GetComponent<HingeJoint>().connectedBody != null)
+        if (objectInTrigger != null)
         {
-            GetComponent<HingeJoint>().connectedBody.gameObject.GetComponent<Renderer>().material.color = Color.white;
+            objectInTrigger.GetComponent<Renderer>().material.color = Color.white;
         }
     }
 

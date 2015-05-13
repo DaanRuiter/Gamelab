@@ -10,22 +10,25 @@ public class PickupGesture : MonoBehaviour {
 
     private void Update()
     {
-        Collider[] colliders = Physics.OverlapSphere(thumb.transform.position, maxFingerDistance);
-        int results = 0;
-        for (int i = 0; i < colliders.Length; i++)
+        if(palm != null)
         {
-            if(colliders[i].transform.tag == fingerTag)
+            Collider[] colliders = Physics.OverlapSphere(thumb.transform.position, maxFingerDistance);
+            int results = 0;
+            for (int i = 0; i < colliders.Length; i++)
             {
-                results++;
+                if(colliders[i].transform.tag == fingerTag)
+                {
+                    results++;
+                }
             }
-        }
-        if(results >= 4)
-        {
-            palm.GrabObject();
-        }
-        else
-        {
-            palm.ReleaseObject();
+            if(results >= 4)
+            {
+                palm.GrabObject();
+            }
+            else
+            {
+                palm.ReleaseObject();
+            }
         }
     }
 }
