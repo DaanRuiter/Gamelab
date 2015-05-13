@@ -9,6 +9,6 @@ public class CreditsButton : Button {
 	}
 	protected override void PressButton ()
 	{
-		_menu.OpenCredits();
+		//_menu.OpenCredits();
 	}
 }

@@ -6,6 +6,7 @@ public class PetBehavior : MonoBehaviour {
 	private bool _isSleeping = true;
 	private bool _hasAttention = false;
 	private bool _justMoved = true;
+	private bool _isBeingPet = false;
 	private Transform _foodBowl;
 	private Transform _node;
 	private float _waitingTime;
@@ -24,7 +25,7 @@ public class PetBehavior : MonoBehaviour {
 	{
 		_myMood = GetComponent<Mood>();
 		//_faceAnimator = petFace.GetComponent<Animator>();
-		//_petAnimator = GetComponent<Animator>();
+		_petAnimator = GetComponent<Animator>();
 	}
 
 	// Use this for initialization
@@ -96,7 +97,6 @@ public class PetBehavior : MonoBehaviour {
 	}
 	private void MoveTowards(Transform trans)
 	{
-		//_petAnimator.SetBool("Walking", true);
 		this.transform.position = Vector3.MoveTowards(this.transform.position,trans.position, _speed * Time.deltaTime);
 		Vector3 relativePos = trans.position - this.transform.position;
 		Quaternion lookAt = Quaternion.LookRotation(relativePos);
@@ -104,27 +104,33 @@ public class PetBehavior : MonoBehaviour {
 	}
 	private void WalkAround()
 	{
-		if(Vector3.Distance(this.transform.position,_node.transform.position) >= _walkRange)
+		if(_node != null)
 		{
-			MoveTowards(_node);
-		} 
-		else 
-		{
-			if(_justMoved)
+			if(Vector3.Distance(this.transform.position,_node.transform.position) >= _walkRange)
 			{
-				//_petAnimator.SetBool("Walking",false);
-				_justMoved = false;
-				_waitingCooldown = Time.time + _waitingTime;
-			}
-			if(_waitingCooldown <= Time.time)
+				_petAnimator.SetBool("Sitting", false);
+				MoveTowards(_node);
+				_petAnimator.SetBool("Walking", true);
+			} 
+			else 
 			{
-				Transform newNode = allNodes[Random.Range(0,allNodes.Length)];
-				while(newNode == _node)
+				if(_justMoved)
 				{
-					newNode = allNodes[Random.Range(0,allNodes.Length)];
+					_petAnimator.SetBool("Walking",false);
+					_justMoved = false;
+					_waitingCooldown = Time.time + _waitingTime;
+					_petAnimator.SetBool("Sitting", true);
 				}
-				_node = newNode;
-				_justMoved = true;
+				if(_waitingCooldown <= Time.time)
+				{
+					Transform newNode = allNodes[Random.Range(0,allNodes.Length)];
+					while(newNode == _node)
+					{
+						newNode = allNodes[Random.Range(0,allNodes.Length)];
+					}
+					_node = newNode;
+					_justMoved = true;
+				}
 			}
 		}
 	}
@@ -148,6 +154,19 @@ public class PetBehavior : MonoBehaviour {
 		}
 		set{
 			_isSleeping = value;
+		}
+	}
+	public bool isBeingPet
+	{
+		get{
+			return _isBeingPet;
+		}
+		set{
+			_isBeingPet = value;
+			if(value == true)
+			{
+				_petAnimator.SetTrigger("Pet");
+			}
 		}
 	}
 }

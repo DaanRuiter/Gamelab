@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public enum Moods
 {
@@ -8,12 +9,14 @@ public enum Moods
 	Angry,
 	Bored,
 	Annoyed,
-	Scared
+	Sad
 }
 
 public class Mood : MonoBehaviour {
 	public float moodCooldown;
 	public float awayCooldown;
+	public Image moodImage;
+	public Sprite[] allMoodImages = new Sprite[0];
 
 	private PetBehavior _myBehavior;
 	private Moods _currentMood;
@@ -38,12 +41,12 @@ public class Mood : MonoBehaviour {
 		moodAndFeeling.Add(Moods.Angry, _angryFeeling);
 		moodAndFeeling.Add(Moods.Happy, _happyFeeling);
 		moodAndFeeling.Add(Moods.Bored, _boredFeeling);
+		moodAndFeeling.Add(Moods.Sad, _happyFeeling);
 
 		moodAndAnimation.Add(Moods.Angry, "isAngry");
 		moodAndAnimation.Add(Moods.Bored, "isBored");
 		moodAndAnimation.Add(Moods.Annoyed, "isAnnoyed");
 		moodAndAnimation.Add(Moods.Happy, "isHappy");
-		moodAndAnimation.Add(Moods.Scared, "isScared");
 	}
 	
 	// Update is called once per frame
@@ -71,10 +74,29 @@ public class Mood : MonoBehaviour {
 					break;
 				}
 			}
+			if(moodToCheck == Moods.Sad)
+			{
+				if(moodAndFeeling[moodToCheck] < 25)
+				{
+					changeMood = true;
+				}
+			}
 			if(changeMood)
 			{
 				_currentMood = moodToCheck;
+				ChangeMoodImage(_currentMood);
 				_myBehavior.SetFaceAnimator(true,moodAndAnimation[_currentMood],true);
+			}
+		}
+	}
+	private void ChangeMoodImage(Moods mood)
+	{
+		foreach(Sprite sprite in allMoodImages)
+		{
+			if(sprite.name == "Mood_" + mood.ToString())
+			{
+				moodImage.sprite = sprite;
+				break;
 			}
 		}
 	}
@@ -94,6 +116,7 @@ public class Mood : MonoBehaviour {
 		set{
 			_happyFeeling = value;
 			CheckMood(Moods.Happy);
+			CheckMood(Moods.Sad);
 		}
 	}
 	public float boredFeeling

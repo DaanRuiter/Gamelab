@@ -9,6 +9,6 @@ public class OptionsButton : Button {
 	}
 	protected override void PressButton ()
 	{
-		_menu.OpenOptions();
+		//_menu.OpenOptions();
 	}
 }

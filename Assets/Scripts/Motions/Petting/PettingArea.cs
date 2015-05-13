@@ -37,6 +37,7 @@ public class PettingArea : MonoBehaviour {
         if(other.transform.tag == "Palm")
         {
 			_myBehavior.hasAttention = true;
+			_myBehavior.isBeingPet = true;
             Debug.Log("Enter");
 			_startingTime = Time.time;
             GameObject collisionPoint = new GameObject("Collision Point");

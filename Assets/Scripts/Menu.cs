@@ -6,12 +6,12 @@ public class Menu : MonoBehaviour {
 	private PetBehavior _petBehavior;
 
 	[SerializeField]private GameObject _playButton;
-	[SerializeField]private GameObject _creditsButton;
+	//[SerializeField]private GameObject _creditsButton;
 	[SerializeField]private GameObject _optionsButton;
 	[SerializeField]private GameObject _backButton;
 
 	[SerializeField]private GameObject _menuCanvas;
-	[SerializeField]private GameObject _creditsCanvas;
+	//[SerializeField]private GameObject _creditsCanvas;
 	[SerializeField]private GameObject _optionsCanvas;
 
 	/*
@@ -38,7 +38,7 @@ public class Menu : MonoBehaviour {
 		_petBehavior.isSleeping = false;
 		//TODO: enable cat actions
 	}
-    
+	/*
 	public void OpenCredits()
 	{
         /*StartCoroutine(MoveButton(_creditsButton));
@@ -46,10 +46,10 @@ public class Menu : MonoBehaviour {
         if(StartCoroutine(FadeButton(_playButton)))
         {
             _creditsCanvas.SetActive(true);
-        }*/
+        }
 		_menuCanvas.SetActive(false);
 		_creditsCanvas.SetActive(true);
-	}
+	} 
 	public void OpenOptions()
 	{
 		_menuCanvas.SetActive(false);
@@ -60,12 +60,12 @@ public class Menu : MonoBehaviour {
 	{
 		
 		_menuCanvas.SetActive(true);
-		if(_creditsCanvas.activeInHierarchy)
-			_creditsCanvas.SetActive(false);
+		//if(_creditsCanvas.activeInHierarchy)
+		//	_creditsCanvas.SetActive(false);
 		if(_optionsCanvas.activeInHierarchy)
 			_optionsCanvas.SetActive(false);
 	}
-	/*
+	
 	private void ResetButton(GameObject button)
 	{
 		button.GetComponent<RectTransform>().position = oldPlayButtonPos;

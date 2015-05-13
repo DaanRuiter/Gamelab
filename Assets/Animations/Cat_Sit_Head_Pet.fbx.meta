@@ -1,0 +1,1093 @@
+fileFormatVersion: 2
+guid: 724e2dec3da62ba47a425baef2fdb9a5
+timeCreated: 1431327479
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Body
+    100002: //RootNode
+    100004: Character
+    100006: Eye_Left
+    100008: Eye_Right
+    100010: FK_Neck_02_con_
+    100012: FK_Neck_03_con_
+    100014: FK_Neck_04_con_
+    100016: FK_Neck_04_targ
+    100018: FK_Neck_algn
+    100020: FK_Neck_IK_01_con_
+    100022: FK_Neck_IK_02_con_
+    100024: FK_Neck_IK_03_con_
+    100026: FK_Neck_PFollow
+    100028: FK_Neck_PRFollow
+    100030: Halsband
+    100032: Head
+    100034: Head_comp
+    100036: Head_con
+    100038: Head_jnt
+    100040: Head_tip_jnt
+    100042: Heup
+    100044: Heup_2
+    100046: Hips_con
+    100048: Jaw
+    100050: Jaw_comp
+    100052: Jaw_con
+    100054: Jaw_jnt
+    100056: Jaw_tip_jnt
+    100058: L_Back_Leg
+    100060: L_BK_Leg_00_jnt
+    100062: L_BK_Leg_00_upv
+    100064: L_BK_Leg_01_jnt
+    100066: L_BK_Leg_02_jnt
+    100068: L_BK_Leg_03_jnt
+    100070: L_BK_Leg_03_jnt_upv
+    100072: L_BK_Leg_04_jnt
+    100074: L_BK_Leg_04_upv
+    100076: L_BK_Leg_05_jnt
+    100078: L_BK_Leg_05_jnt_Goal
+    100080: L_BK_Leg_05_upv
+    100082: L_BK_Leg_06_tip_jnt
+    100084: L_BK_Leg_06_tip_jnt_Goal
+    100086: L_BK_Leg_Ankle_goal
+    100088: L_BK_Leg_Ankle_goal_2
+    100090: L_BK_Leg_Ball_rot
+    100092: L_BK_Leg_comp
+    100094: L_BK_Leg_Foot_nulls
+    100096: L_BK_Leg_Foot_rock_inner
+    100098: L_BK_Leg_Foot_rock_outer
+    100100: L_BK_Leg_Foot_Wiggle
+    100102: L_BK_Leg_Heel_rot
+    100104: L_BK_Leg_knee_root
+    100106: L_BK_Leg_knee_twist
+    100108: L_BK_Leg_PV_con
+    100110: L_BK_Leg_Root_con
+    100112: L_BK_Leg_targ
+    100114: L_BK_Leg_Toe_rot
+    100116: L_BK_Leg_Toe_twist
+    100118: L_BK_Leg_upv
+    100120: L_BK_Leg_upv_parent
+    100122: L_Ear
+    100124: L_Ear_01_jnt
+    100126: L_Ear_01_jnt_2
+    100128: L_Ear_02_jnt
+    100130: L_Ear_03_tip_jnt
+    100132: L_Ear_FK_01_con_
+    100134: L_Ear_FK_02_con_
+    100136: L_Ear_FK_03_con_
+    100138: L_Ear_FK_comp
+    100140: L_Ear_SpIK_spline
+    100142: L_Ear_SpIK_tip_hndl
+    100144: L_FR_Leg_00_jnt
+    100146: L_FR_Leg_00_upv
+    100148: L_FR_Leg_01_jnt
+    100150: L_FR_Leg_02_jnt
+    100152: L_FR_Leg_03_jnt
+    100154: L_FR_Leg_03_upv
+    100156: L_FR_Leg_04_jnt
+    100158: L_FR_Leg_04_upv
+    100160: L_FR_Leg_05_jnt
+    100162: L_FR_Leg_05_jnt_Goal
+    100164: L_FR_Leg_05_upv
+    100166: L_FR_Leg_06_tip_jnt
+    100168: L_FR_Leg_06_tip_jnt_Goal
+    100170: L_FR_Leg_Ankle_goal
+    100172: L_FR_Leg_Ankle_goal_2
+    100174: L_FR_Leg_Ball_rot
+    100176: L_FR_Leg_comp
+    100178: L_FR_Leg_Foot_nulls
+    100180: L_FR_Leg_Heel
+    100182: L_FR_Leg_Inner_roll
+    100184: L_FR_Leg_knee_parent
+    100186: L_FR_Leg_knee_twist
+    100188: L_FR_Leg_Outer_roll
+    100190: L_FR_Leg_PV_con
+    100192: L_FR_Leg_targ
+    100194: L_FR_Leg_Toe_rot
+    100196: L_FR_Leg_toe_wiggle
+    100198: L_FR_Leg_upV
+    100200: L_FR_Leg_upV_parent
+    100202: L_FR_Toe_twist
+    100204: L_Front_Leg
+    100206: Layout_con
+    100208: Left_brow
+    100210: Left_cheek
+    100212: Left_eye
+    100214: Left_lip
+    100216: Linker_Achterpoot
+    100218: Linker_Schouder
+    100220: Linker_Voorpoot
+    100222: Master_con
+    100224: Neck
+    100226: Neck_01_jnt
+    100228: Neck_01_jnt_2
+    100230: Neck_02_tip_jnt
+    100232: Neck_FK_comp
+    100234: Neck_Spline
+    100236: Nek
+    100238: Nose
+    100240: Null
+    100242: Oog_L
+    100244: Oog_R
+    100246: Pelvis_jnt
+    100248: Pelvis_null
+    100250: Pelvis_tip_jnt
+    100252: Quadruped_Rig
+    100254: R_Back_Leg
+    100256: R_BK_Leg_00_jnt
+    100258: R_BK_Leg_00_upv
+    100260: R_BK_Leg_01_jnt
+    100262: R_BK_Leg_02_jnt
+    100264: R_BK_Leg_03_jnt
+    100266: R_BK_Leg_03_jnt_upv
+    100268: R_BK_Leg_04_jnt
+    100270: R_BK_Leg_04_upv
+    100272: R_BK_Leg_05_jnt
+    100274: R_BK_Leg_05_jnt_Goal
+    100276: R_BK_Leg_05_upv
+    100278: R_BK_Leg_06_tip_jnt
+    100280: R_BK_Leg_06_tip_jnt_Goal
+    100282: R_BK_Leg_Ankle_goal
+    100284: R_BK_Leg_Ankle_goal_2
+    100286: R_BK_Leg_Ball_rot
+    100288: R_BK_Leg_comp
+    100290: R_BK_Leg_Foot_nulls
+    100292: R_BK_Leg_Foot_rock_inner
+    100294: R_BK_Leg_Foot_rock_outer
+    100296: R_BK_Leg_Foot_Wiggle
+    100298: R_BK_Leg_Heel_rot
+    100300: R_BK_Leg_knee_root
+    100302: R_BK_Leg_knee_twist
+    100304: R_BK_Leg_PV_con
+    100306: R_BK_Leg_Root_con
+    100308: R_BK_Leg_targ
+    100310: R_BK_Leg_Toe_rot
+    100312: R_BK_Leg_Toe_twist
+    100314: R_BK_Leg_upv
+    100316: R_BK_Leg_upv_parent
+    100318: R_Ear
+    100320: R_Ear_01_jnt
+    100322: R_Ear_01_jnt_2
+    100324: R_Ear_02_jnt
+    100326: R_Ear_03_tip_jnt
+    100328: R_Ear_FK_01_con_
+    100330: R_Ear_FK_02_con_
+    100332: R_Ear_FK_03_con_
+    100334: R_Ear_FK_comp
+    100336: R_Ear_SpIK_spline
+    100338: R_Ear_SpIK_tip_hndl
+    100340: R_FR_Leg_00_jnt
+    100342: R_FR_Leg_00_upv
+    100344: R_FR_Leg_01_jnt
+    100346: R_FR_Leg_02_jnt
+    100348: R_FR_Leg_03_jnt
+    100350: R_FR_Leg_03_upv
+    100352: R_FR_Leg_04_jnt
+    100354: R_FR_Leg_04_upv
+    100356: R_FR_Leg_05_jnt
+    100358: R_FR_Leg_05_jnt_Goal
+    100360: R_FR_Leg_05_upv
+    100362: R_FR_Leg_06_tip_jnt
+    100364: R_FR_Leg_06_tip_jnt_Goal
+    100366: R_FR_Leg_Ankle_goal
+    100368: R_FR_Leg_Ankle_goal_2
+    100370: R_FR_Leg_Ball_rot
+    100372: R_FR_Leg_comp
+    100374: R_FR_Leg_Foot_nulls
+    100376: R_FR_Leg_Heel
+    100378: R_FR_Leg_Inner_roll
+    100380: R_FR_Leg_knee_parent
+    100382: R_FR_Leg_knee_twist
+    100384: R_FR_Leg_Outer_roll
+    100386: R_FR_Leg_PV_con
+    100388: R_FR_Leg_targ
+    100390: R_FR_Leg_Toe_rot
+    100392: R_FR_Leg_toe_wiggle
+    100394: R_FR_Leg_upV
+    100396: R_FR_Leg_upV_parent
+    100398: R_FR_Toe_twist
+    100400: R_Front_Leg
+    100402: Rear
+    100404: Rear_FK_con
+    100406: Rechter_Achterpoot
+    100408: Rechter_Schouder
+    100410: Rechter_Voorpoot
+    100412: Right_brow
+    100414: Right_cheek
+    100416: Right_eye
+    100418: Right_lip
+    100420: Root
+    100422: Root_comp
+    100424: Rug
+    100426: Ruggengraat
+    100428: Schouders
+    100430: Skin
+    100432: Skin_2
+    100434: Spine
+    100436: Spine_01_jnt
+    100438: Spine_02_jnt
+    100440: Spine_03_jnt
+    100442: Spine_04_jnt
+    100444: Spine_05_jnt
+    100446: Spine_06_tip_jnt
+    100448: Spine_comp
+    100450: Spine_IK_mid_algn
+    100452: Spine_IK_mid_con
+    100454: Spine_IK_root_con
+    100456: Spine_mid_tip_targ
+    100458: Spine_Spline
+    100460: Staart
+    100462: Tail
+    100464: Tail_01_jnt
+    100466: Tail_02_jnt
+    100468: Tail_03_jnt
+    100470: Tail_04_jnt
+    100472: Tail_05_jnt
+    100474: Tail_06_tip_jnt
+    100476: Tail_FK__02_con
+    100478: Tail_FK__03_con
+    100480: Tail_FK__04_con
+    100482: Tail_FK_comp
+    100484: Tail_IK_01_con
+    100486: Tail_IK_02_con
+    100488: Tail_IK_03_con
+    100490: Tail_IK_04_con
+    100492: Tail_IK_05_con
+    100494: Tail_spline
+    400000: Body
+    400002: //RootNode
+    400004: Character
+    400006: Eye_Left
+    400008: Eye_Right
+    400010: FK_Neck_02_con_
+    400012: FK_Neck_03_con_
+    400014: FK_Neck_04_con_
+    400016: FK_Neck_04_targ
+    400018: FK_Neck_algn
+    400020: FK_Neck_IK_01_con_
+    400022: FK_Neck_IK_02_con_
+    400024: FK_Neck_IK_03_con_
+    400026: FK_Neck_PFollow
+    400028: FK_Neck_PRFollow
+    400030: Halsband
+    400032: Head
+    400034: Head_comp
+    400036: Head_con
+    400038: Head_jnt
+    400040: Head_tip_jnt
+    400042: Heup
+    400044: Heup_2
+    400046: Hips_con
+    400048: Jaw
+    400050: Jaw_comp
+    400052: Jaw_con
+    400054: Jaw_jnt
+    400056: Jaw_tip_jnt
+    400058: L_Back_Leg
+    400060: L_BK_Leg_00_jnt
+    400062: L_BK_Leg_00_upv
+    400064: L_BK_Leg_01_jnt
+    400066: L_BK_Leg_02_jnt
+    400068: L_BK_Leg_03_jnt
+    400070: L_BK_Leg_03_jnt_upv
+    400072: L_BK_Leg_04_jnt
+    400074: L_BK_Leg_04_upv
+    400076: L_BK_Leg_05_jnt
+    400078: L_BK_Leg_05_jnt_Goal
+    400080: L_BK_Leg_05_upv
+    400082: L_BK_Leg_06_tip_jnt
+    400084: L_BK_Leg_06_tip_jnt_Goal
+    400086: L_BK_Leg_Ankle_goal
+    400088: L_BK_Leg_Ankle_goal_2
+    400090: L_BK_Leg_Ball_rot
+    400092: L_BK_Leg_comp
+    400094: L_BK_Leg_Foot_nulls
+    400096: L_BK_Leg_Foot_rock_inner
+    400098: L_BK_Leg_Foot_rock_outer
+    400100: L_BK_Leg_Foot_Wiggle
+    400102: L_BK_Leg_Heel_rot
+    400104: L_BK_Leg_knee_root
+    400106: L_BK_Leg_knee_twist
+    400108: L_BK_Leg_PV_con
+    400110: L_BK_Leg_Root_con
+    400112: L_BK_Leg_targ
+    400114: L_BK_Leg_Toe_rot
+    400116: L_BK_Leg_Toe_twist
+    400118: L_BK_Leg_upv
+    400120: L_BK_Leg_upv_parent
+    400122: L_Ear
+    400124: L_Ear_01_jnt
+    400126: L_Ear_01_jnt_2
+    400128: L_Ear_02_jnt
+    400130: L_Ear_03_tip_jnt
+    400132: L_Ear_FK_01_con_
+    400134: L_Ear_FK_02_con_
+    400136: L_Ear_FK_03_con_
+    400138: L_Ear_FK_comp
+    400140: L_Ear_SpIK_spline
+    400142: L_Ear_SpIK_tip_hndl
+    400144: L_FR_Leg_00_jnt
+    400146: L_FR_Leg_00_upv
+    400148: L_FR_Leg_01_jnt
+    400150: L_FR_Leg_02_jnt
+    400152: L_FR_Leg_03_jnt
+    400154: L_FR_Leg_03_upv
+    400156: L_FR_Leg_04_jnt
+    400158: L_FR_Leg_04_upv
+    400160: L_FR_Leg_05_jnt
+    400162: L_FR_Leg_05_jnt_Goal
+    400164: L_FR_Leg_05_upv
+    400166: L_FR_Leg_06_tip_jnt
+    400168: L_FR_Leg_06_tip_jnt_Goal
+    400170: L_FR_Leg_Ankle_goal
+    400172: L_FR_Leg_Ankle_goal_2
+    400174: L_FR_Leg_Ball_rot
+    400176: L_FR_Leg_comp
+    400178: L_FR_Leg_Foot_nulls
+    400180: L_FR_Leg_Heel
+    400182: L_FR_Leg_Inner_roll
+    400184: L_FR_Leg_knee_parent
+    400186: L_FR_Leg_knee_twist
+    400188: L_FR_Leg_Outer_roll
+    400190: L_FR_Leg_PV_con
+    400192: L_FR_Leg_targ
+    400194: L_FR_Leg_Toe_rot
+    400196: L_FR_Leg_toe_wiggle
+    400198: L_FR_Leg_upV
+    400200: L_FR_Leg_upV_parent
+    400202: L_FR_Toe_twist
+    400204: L_Front_Leg
+    400206: Layout_con
+    400208: Left_brow
+    400210: Left_cheek
+    400212: Left_eye
+    400214: Left_lip
+    400216: Linker_Achterpoot
+    400218: Linker_Schouder
+    400220: Linker_Voorpoot
+    400222: Master_con
+    400224: Neck
+    400226: Neck_01_jnt
+    400228: Neck_01_jnt_2
+    400230: Neck_02_tip_jnt
+    400232: Neck_FK_comp
+    400234: Neck_Spline
+    400236: Nek
+    400238: Nose
+    400240: Null
+    400242: Oog_L
+    400244: Oog_R
+    400246: Pelvis_jnt
+    400248: Pelvis_null
+    400250: Pelvis_tip_jnt
+    400252: Quadruped_Rig
+    400254: R_Back_Leg
+    400256: R_BK_Leg_00_jnt
+    400258: R_BK_Leg_00_upv
+    400260: R_BK_Leg_01_jnt
+    400262: R_BK_Leg_02_jnt
+    400264: R_BK_Leg_03_jnt
+    400266: R_BK_Leg_03_jnt_upv
+    400268: R_BK_Leg_04_jnt
+    400270: R_BK_Leg_04_upv
+    400272: R_BK_Leg_05_jnt
+    400274: R_BK_Leg_05_jnt_Goal
+    400276: R_BK_Leg_05_upv
+    400278: R_BK_Leg_06_tip_jnt
+    400280: R_BK_Leg_06_tip_jnt_Goal
+    400282: R_BK_Leg_Ankle_goal
+    400284: R_BK_Leg_Ankle_goal_2
+    400286: R_BK_Leg_Ball_rot
+    400288: R_BK_Leg_comp
+    400290: R_BK_Leg_Foot_nulls
+    400292: R_BK_Leg_Foot_rock_inner
+    400294: R_BK_Leg_Foot_rock_outer
+    400296: R_BK_Leg_Foot_Wiggle
+    400298: R_BK_Leg_Heel_rot
+    400300: R_BK_Leg_knee_root
+    400302: R_BK_Leg_knee_twist
+    400304: R_BK_Leg_PV_con
+    400306: R_BK_Leg_Root_con
+    400308: R_BK_Leg_targ
+    400310: R_BK_Leg_Toe_rot
+    400312: R_BK_Leg_Toe_twist
+    400314: R_BK_Leg_upv
+    400316: R_BK_Leg_upv_parent
+    400318: R_Ear
+    400320: R_Ear_01_jnt
+    400322: R_Ear_01_jnt_2
+    400324: R_Ear_02_jnt
+    400326: R_Ear_03_tip_jnt
+    400328: R_Ear_FK_01_con_
+    400330: R_Ear_FK_02_con_
+    400332: R_Ear_FK_03_con_
+    400334: R_Ear_FK_comp
+    400336: R_Ear_SpIK_spline
+    400338: R_Ear_SpIK_tip_hndl
+    400340: R_FR_Leg_00_jnt
+    400342: R_FR_Leg_00_upv
+    400344: R_FR_Leg_01_jnt
+    400346: R_FR_Leg_02_jnt
+    400348: R_FR_Leg_03_jnt
+    400350: R_FR_Leg_03_upv
+    400352: R_FR_Leg_04_jnt
+    400354: R_FR_Leg_04_upv
+    400356: R_FR_Leg_05_jnt
+    400358: R_FR_Leg_05_jnt_Goal
+    400360: R_FR_Leg_05_upv
+    400362: R_FR_Leg_06_tip_jnt
+    400364: R_FR_Leg_06_tip_jnt_Goal
+    400366: R_FR_Leg_Ankle_goal
+    400368: R_FR_Leg_Ankle_goal_2
+    400370: R_FR_Leg_Ball_rot
+    400372: R_FR_Leg_comp
+    400374: R_FR_Leg_Foot_nulls
+    400376: R_FR_Leg_Heel
+    400378: R_FR_Leg_Inner_roll
+    400380: R_FR_Leg_knee_parent
+    400382: R_FR_Leg_knee_twist
+    400384: R_FR_Leg_Outer_roll
+    400386: R_FR_Leg_PV_con
+    400388: R_FR_Leg_targ
+    400390: R_FR_Leg_Toe_rot
+    400392: R_FR_Leg_toe_wiggle
+    400394: R_FR_Leg_upV
+    400396: R_FR_Leg_upV_parent
+    400398: R_FR_Toe_twist
+    400400: R_Front_Leg
+    400402: Rear
+    400404: Rear_FK_con
+    400406: Rechter_Achterpoot
+    400408: Rechter_Schouder
+    400410: Rechter_Voorpoot
+    400412: Right_brow
+    400414: Right_cheek
+    400416: Right_eye
+    400418: Right_lip
+    400420: Root
+    400422: Root_comp
+    400424: Rug
+    400426: Ruggengraat
+    400428: Schouders
+    400430: Skin
+    400432: Skin_2
+    400434: Spine
+    400436: Spine_01_jnt
+    400438: Spine_02_jnt
+    400440: Spine_03_jnt
+    400442: Spine_04_jnt
+    400444: Spine_05_jnt
+    400446: Spine_06_tip_jnt
+    400448: Spine_comp
+    400450: Spine_IK_mid_algn
+    400452: Spine_IK_mid_con
+    400454: Spine_IK_root_con
+    400456: Spine_mid_tip_targ
+    400458: Spine_Spline
+    400460: Staart
+    400462: Tail
+    400464: Tail_01_jnt
+    400466: Tail_02_jnt
+    400468: Tail_03_jnt
+    400470: Tail_04_jnt
+    400472: Tail_05_jnt
+    400474: Tail_06_tip_jnt
+    400476: Tail_FK__02_con
+    400478: Tail_FK__03_con
+    400480: Tail_FK__04_con
+    400482: Tail_FK_comp
+    400484: Tail_IK_01_con
+    400486: Tail_IK_02_con
+    400488: Tail_IK_03_con
+    400490: Tail_IK_04_con
+    400492: Tail_IK_05_con
+    400494: Tail_spline
+    4300000: Body
+    4300002: Oog_L
+    4300004: Oog_R
+    4300006: Halsband
+    7400000: CatSitPet
+    9500000: //RootNode
+    13700000: Body
+    13700002: Halsband
+    13700004: Oog_L
+    13700006: Oog_R
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CatSitPet
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 1
+      - path: Character/Quadruped_Rig
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_algn
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_algn/FK_Neck_04_con_
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_algn/FK_Neck_04_con_/Head_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_algn/FK_Neck_04_con_/Head_con/Jaw_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_algn/FK_Neck_04_con_/Head_con/L_Ear_FK_01_con_
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_algn/FK_Neck_04_con_/Head_con/L_Ear_FK_01_con_/L_Ear_FK_02_con_
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_algn/FK_Neck_04_con_/Head_con/L_Ear_FK_01_con_/L_Ear_FK_02_con_/L_Ear_FK_03_con_
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_algn/FK_Neck_04_con_/Head_con/L_Ear_FK_01_con_/L_Ear_FK_02_con_/L_Ear_FK_03_con_/L_Ear_SpIK_tip_hndl
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_algn/FK_Neck_04_con_/Head_con/R_Ear_FK_01_con_
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_algn/FK_Neck_04_con_/Head_con/R_Ear_FK_01_con_/R_Ear_FK_02_con_
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_algn/FK_Neck_04_con_/Head_con/R_Ear_FK_01_con_/R_Ear_FK_02_con_/R_Ear_FK_03_con_
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_algn/FK_Neck_04_con_/Head_con/R_Ear_FK_01_con_/R_Ear_FK_02_con_/R_Ear_FK_03_con_/R_Ear_SpIK_tip_hndl
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_PFollow
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/FK_Neck_PRFollow
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer/L_BK_Leg_Foot_rock_inner
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer/L_BK_Leg_Foot_rock_inner/L_BK_Leg_Heel_rot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer/L_BK_Leg_Foot_rock_inner/L_BK_Leg_Heel_rot/L_BK_Leg_Toe_rot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer/L_BK_Leg_Foot_rock_inner/L_BK_Leg_Heel_rot/L_BK_Leg_Toe_rot/L_BK_Leg_Ball_rot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer/L_BK_Leg_Foot_rock_inner/L_BK_Leg_Heel_rot/L_BK_Leg_Toe_rot/L_BK_Leg_Ball_rot/L_BK_Leg_05_jnt_Goal
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer/L_BK_Leg_Foot_rock_inner/L_BK_Leg_Heel_rot/L_BK_Leg_Toe_rot/L_BK_Leg_Ball_rot/L_BK_Leg_05_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer/L_BK_Leg_Foot_rock_inner/L_BK_Leg_Heel_rot/L_BK_Leg_Toe_rot/L_BK_Leg_Ball_rot/L_BK_Leg_Ankle_goal
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer/L_BK_Leg_Foot_rock_inner/L_BK_Leg_Heel_rot/L_BK_Leg_Toe_rot/L_BK_Leg_Ball_rot/L_BK_Leg_Ankle_goal/L_BK_Leg_03_jnt_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer/L_BK_Leg_Foot_rock_inner/L_BK_Leg_Heel_rot/L_BK_Leg_Toe_rot/L_BK_Leg_Ball_rot/L_BK_Leg_Ankle_goal/L_BK_Leg_04_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer/L_BK_Leg_Foot_rock_inner/L_BK_Leg_Heel_rot/L_BK_Leg_Toe_rot/L_BK_Leg_Ball_rot/L_BK_Leg_Ankle_goal/L_BK_Leg_Ankle_goal_2
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer/L_BK_Leg_Foot_rock_inner/L_BK_Leg_Heel_rot/L_BK_Leg_Toe_rot/L_BK_Leg_Foot_Wiggle
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Achterpoot/L_BK_Leg_Foot_nulls/L_BK_Leg_Toe_twist/L_BK_Leg_Foot_rock_outer/L_BK_Leg_Foot_rock_inner/L_BK_Leg_Heel_rot/L_BK_Leg_Toe_rot/L_BK_Leg_Foot_Wiggle/L_BK_Leg_06_tip_jnt_Goal
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll/L_FR_Leg_Inner_roll
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll/L_FR_Leg_Inner_roll/L_FR_Leg_Heel
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll/L_FR_Leg_Inner_roll/L_FR_Leg_Heel/L_FR_Leg_Toe_rot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll/L_FR_Leg_Inner_roll/L_FR_Leg_Heel/L_FR_Leg_Toe_rot/L_FR_Leg_05_jnt_Goal
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll/L_FR_Leg_Inner_roll/L_FR_Leg_Heel/L_FR_Leg_Toe_rot/L_FR_Leg_Ball_rot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll/L_FR_Leg_Inner_roll/L_FR_Leg_Heel/L_FR_Leg_Toe_rot/L_FR_Leg_Ball_rot/L_FR_Leg_Ankle_goal
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll/L_FR_Leg_Inner_roll/L_FR_Leg_Heel/L_FR_Leg_Toe_rot/L_FR_Leg_Ball_rot/L_FR_Leg_Ankle_goal/L_FR_Leg_03_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll/L_FR_Leg_Inner_roll/L_FR_Leg_Heel/L_FR_Leg_Toe_rot/L_FR_Leg_Ball_rot/L_FR_Leg_Ankle_goal/L_FR_Leg_04_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll/L_FR_Leg_Inner_roll/L_FR_Leg_Heel/L_FR_Leg_Toe_rot/L_FR_Leg_Ball_rot/L_FR_Leg_Ankle_goal/L_FR_Leg_Ankle_goal_2
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll/L_FR_Leg_Inner_roll/L_FR_Leg_Heel/L_FR_Leg_Toe_rot/L_FR_Leg_toe_wiggle
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll/L_FR_Leg_Inner_roll/L_FR_Leg_Heel/L_FR_Leg_Toe_rot/L_FR_Leg_toe_wiggle/L_FR_Leg_05_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Linker_Voorpoot/L_FR_Leg_Foot_nulls/L_FR_Toe_twist/L_FR_Leg_Outer_roll/L_FR_Leg_Inner_roll/L_FR_Leg_Heel/L_FR_Leg_Toe_rot/L_FR_Leg_toe_wiggle/L_FR_Leg_06_tip_jnt_Goal
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer/R_BK_Leg_Foot_rock_inner
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer/R_BK_Leg_Foot_rock_inner/R_BK_Leg_Heel_rot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer/R_BK_Leg_Foot_rock_inner/R_BK_Leg_Heel_rot/R_BK_Leg_Toe_rot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer/R_BK_Leg_Foot_rock_inner/R_BK_Leg_Heel_rot/R_BK_Leg_Toe_rot/R_BK_Leg_Ball_rot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer/R_BK_Leg_Foot_rock_inner/R_BK_Leg_Heel_rot/R_BK_Leg_Toe_rot/R_BK_Leg_Ball_rot/R_BK_Leg_05_jnt_Goal
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer/R_BK_Leg_Foot_rock_inner/R_BK_Leg_Heel_rot/R_BK_Leg_Toe_rot/R_BK_Leg_Ball_rot/R_BK_Leg_05_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer/R_BK_Leg_Foot_rock_inner/R_BK_Leg_Heel_rot/R_BK_Leg_Toe_rot/R_BK_Leg_Ball_rot/R_BK_Leg_Ankle_goal
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer/R_BK_Leg_Foot_rock_inner/R_BK_Leg_Heel_rot/R_BK_Leg_Toe_rot/R_BK_Leg_Ball_rot/R_BK_Leg_Ankle_goal/R_BK_Leg_03_jnt_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer/R_BK_Leg_Foot_rock_inner/R_BK_Leg_Heel_rot/R_BK_Leg_Toe_rot/R_BK_Leg_Ball_rot/R_BK_Leg_Ankle_goal/R_BK_Leg_04_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer/R_BK_Leg_Foot_rock_inner/R_BK_Leg_Heel_rot/R_BK_Leg_Toe_rot/R_BK_Leg_Ball_rot/R_BK_Leg_Ankle_goal/R_BK_Leg_Ankle_goal_2
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer/R_BK_Leg_Foot_rock_inner/R_BK_Leg_Heel_rot/R_BK_Leg_Toe_rot/R_BK_Leg_Foot_Wiggle
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Achterpoot/R_BK_Leg_Foot_nulls/R_BK_Leg_Toe_twist/R_BK_Leg_Foot_rock_outer/R_BK_Leg_Foot_rock_inner/R_BK_Leg_Heel_rot/R_BK_Leg_Toe_rot/R_BK_Leg_Foot_Wiggle/R_BK_Leg_06_tip_jnt_Goal
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll/R_FR_Leg_Inner_roll
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll/R_FR_Leg_Inner_roll/R_FR_Leg_Heel
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll/R_FR_Leg_Inner_roll/R_FR_Leg_Heel/R_FR_Leg_Toe_rot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll/R_FR_Leg_Inner_roll/R_FR_Leg_Heel/R_FR_Leg_Toe_rot/R_FR_Leg_05_jnt_Goal
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll/R_FR_Leg_Inner_roll/R_FR_Leg_Heel/R_FR_Leg_Toe_rot/R_FR_Leg_Ball_rot
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll/R_FR_Leg_Inner_roll/R_FR_Leg_Heel/R_FR_Leg_Toe_rot/R_FR_Leg_Ball_rot/R_FR_Leg_Ankle_goal
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll/R_FR_Leg_Inner_roll/R_FR_Leg_Heel/R_FR_Leg_Toe_rot/R_FR_Leg_Ball_rot/R_FR_Leg_Ankle_goal/R_FR_Leg_03_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll/R_FR_Leg_Inner_roll/R_FR_Leg_Heel/R_FR_Leg_Toe_rot/R_FR_Leg_Ball_rot/R_FR_Leg_Ankle_goal/R_FR_Leg_04_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll/R_FR_Leg_Inner_roll/R_FR_Leg_Heel/R_FR_Leg_Toe_rot/R_FR_Leg_Ball_rot/R_FR_Leg_Ankle_goal/R_FR_Leg_Ankle_goal_2
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll/R_FR_Leg_Inner_roll/R_FR_Leg_Heel/R_FR_Leg_Toe_rot/R_FR_Leg_toe_wiggle
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll/R_FR_Leg_Inner_roll/R_FR_Leg_Heel/R_FR_Leg_Toe_rot/R_FR_Leg_toe_wiggle/R_FR_Leg_05_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Rechter_Voorpoot/R_FR_Leg_Foot_nulls/R_FR_Toe_twist/R_FR_Leg_Outer_roll/R_FR_Leg_Inner_roll/R_FR_Leg_Heel/R_FR_Leg_Toe_rot/R_FR_Leg_toe_wiggle/R_FR_Leg_06_tip_jnt_Goal
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/L_FR_Leg_targ
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/L_FR_Leg_targ/L_FR_Leg_00_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/Linker_Schouder
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/Nek
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/Nek/FK_Neck_02_con_
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/Nek/FK_Neck_02_con_/FK_Neck_03_con_
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/Nek/FK_Neck_02_con_/FK_Neck_03_con_/FK_Neck_04_targ
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/Nek/FK_Neck_02_con_/FK_Neck_03_con_/FK_Neck_IK_03_con_
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/Nek/FK_Neck_02_con_/FK_Neck_IK_02_con_
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/Nek/FK_Neck_IK_01_con_
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp/L_FR_Leg_00_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp/L_FR_Leg_00_jnt/L_FR_Leg_01_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp/L_FR_Leg_00_jnt/L_FR_Leg_01_jnt/L_FR_Leg_02_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp/L_FR_Leg_00_jnt/L_FR_Leg_01_jnt/L_FR_Leg_02_jnt/L_FR_Leg_03_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp/L_FR_Leg_00_jnt/L_FR_Leg_01_jnt/L_FR_Leg_02_jnt/L_FR_Leg_03_jnt/L_FR_Leg_04_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp/L_FR_Leg_00_jnt/L_FR_Leg_01_jnt/L_FR_Leg_02_jnt/L_FR_Leg_03_jnt/L_FR_Leg_04_jnt/L_FR_Leg_05_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp/L_FR_Leg_00_jnt/L_FR_Leg_01_jnt/L_FR_Leg_02_jnt/L_FR_Leg_03_jnt/L_FR_Leg_04_jnt/L_FR_Leg_05_jnt/L_FR_Leg_06_tip_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp/L_FR_Leg_knee_parent
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp/L_FR_Leg_knee_parent/L_FR_Leg_knee_twist
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp/L_FR_Leg_knee_parent/L_FR_Leg_knee_twist/L_FR_Leg_PV_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp/L_FR_Leg_upV_parent
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/L_FR_Leg_comp/L_FR_Leg_upV_parent/L_FR_Leg_upV
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/R_FR_Leg_00_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/R_FR_Leg_00_jnt/R_FR_Leg_01_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/R_FR_Leg_00_jnt/R_FR_Leg_01_jnt/R_FR_Leg_02_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/R_FR_Leg_00_jnt/R_FR_Leg_01_jnt/R_FR_Leg_02_jnt/R_FR_Leg_03_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/R_FR_Leg_00_jnt/R_FR_Leg_01_jnt/R_FR_Leg_02_jnt/R_FR_Leg_03_jnt/R_FR_Leg_04_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/R_FR_Leg_00_jnt/R_FR_Leg_01_jnt/R_FR_Leg_02_jnt/R_FR_Leg_03_jnt/R_FR_Leg_04_jnt/R_FR_Leg_05_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/R_FR_Leg_00_jnt/R_FR_Leg_01_jnt/R_FR_Leg_02_jnt/R_FR_Leg_03_jnt/R_FR_Leg_04_jnt/R_FR_Leg_05_jnt/R_FR_Leg_06_tip_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/R_FR_Leg_knee_parent
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/R_FR_Leg_knee_parent/R_FR_Leg_knee_twist
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/R_FR_Leg_knee_parent/R_FR_Leg_knee_twist/R_FR_Leg_PV_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/R_FR_Leg_upV_parent
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_comp/R_FR_Leg_upV_parent/R_FR_Leg_upV
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_targ
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/R_FR_Leg_targ/R_FR_Leg_00_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/Rechter_Schouder
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Heup/Rug/Schouders/Spine_mid_tip_targ
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Heup_2
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp/L_BK_Leg_00_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp/L_BK_Leg_00_jnt/L_BK_Leg_01_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp/L_BK_Leg_00_jnt/L_BK_Leg_01_jnt/L_BK_Leg_02_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp/L_BK_Leg_00_jnt/L_BK_Leg_01_jnt/L_BK_Leg_02_jnt/L_BK_Leg_03_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp/L_BK_Leg_00_jnt/L_BK_Leg_01_jnt/L_BK_Leg_02_jnt/L_BK_Leg_03_jnt/L_BK_Leg_04_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp/L_BK_Leg_00_jnt/L_BK_Leg_01_jnt/L_BK_Leg_02_jnt/L_BK_Leg_03_jnt/L_BK_Leg_04_jnt/L_BK_Leg_05_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp/L_BK_Leg_00_jnt/L_BK_Leg_01_jnt/L_BK_Leg_02_jnt/L_BK_Leg_03_jnt/L_BK_Leg_04_jnt/L_BK_Leg_05_jnt/L_BK_Leg_06_tip_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp/L_BK_Leg_knee_root
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp/L_BK_Leg_knee_root/L_BK_Leg_knee_twist
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp/L_BK_Leg_knee_root/L_BK_Leg_knee_twist/L_BK_Leg_PV_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp/L_BK_Leg_upv_parent
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_comp/L_BK_Leg_upv_parent/L_BK_Leg_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/L_BK_Leg_Root_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp/R_BK_Leg_00_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp/R_BK_Leg_00_jnt/R_BK_Leg_01_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp/R_BK_Leg_00_jnt/R_BK_Leg_01_jnt/R_BK_Leg_02_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp/R_BK_Leg_00_jnt/R_BK_Leg_01_jnt/R_BK_Leg_02_jnt/R_BK_Leg_03_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp/R_BK_Leg_00_jnt/R_BK_Leg_01_jnt/R_BK_Leg_02_jnt/R_BK_Leg_03_jnt/R_BK_Leg_04_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp/R_BK_Leg_00_jnt/R_BK_Leg_01_jnt/R_BK_Leg_02_jnt/R_BK_Leg_03_jnt/R_BK_Leg_04_jnt/R_BK_Leg_05_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp/R_BK_Leg_00_jnt/R_BK_Leg_01_jnt/R_BK_Leg_02_jnt/R_BK_Leg_03_jnt/R_BK_Leg_04_jnt/R_BK_Leg_05_jnt/R_BK_Leg_06_tip_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp/R_BK_Leg_knee_root
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp/R_BK_Leg_knee_root/R_BK_Leg_knee_twist
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp/R_BK_Leg_knee_root/R_BK_Leg_knee_twist/R_BK_Leg_PV_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp/R_BK_Leg_upv_parent
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_comp/R_BK_Leg_upv_parent/R_BK_Leg_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/R_BK_Leg_Root_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/Staart
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/Staart/Tail_FK__02_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/Staart/Tail_FK__02_con/Tail_FK__03_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/Staart/Tail_FK__02_con/Tail_FK__03_con/Tail_FK__04_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/Staart/Tail_FK__02_con/Tail_FK__03_con/Tail_FK__04_con/Tail_IK_04_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/Staart/Tail_FK__02_con/Tail_FK__03_con/Tail_FK__04_con/Tail_IK_04_con/Tail_IK_05_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/Staart/Tail_FK__02_con/Tail_FK__03_con/Tail_IK_03_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/Staart/Tail_FK__02_con/Tail_IK_02_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Rear/Rear_FK_con/Spine_IK_root_con/Hips_con/Staart/Tail_IK_01_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Spine_IK_mid_algn
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Layout_con/Ruggengraat/Spine_IK_mid_algn/Spine_IK_mid_con
+        weight: 1
+      - path: Character/Quadruped_Rig/Root_comp/Master_con/Skin
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/L_BK_Leg_targ
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/L_BK_Leg_targ/L_BK_Leg_00_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/Pelvis_tip_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/Pelvis_tip_jnt/Tail_FK_comp
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/Pelvis_tip_jnt/Tail_FK_comp/Tail_01_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/Pelvis_tip_jnt/Tail_FK_comp/Tail_01_jnt/Tail_02_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/Pelvis_tip_jnt/Tail_FK_comp/Tail_01_jnt/Tail_02_jnt/Tail_03_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/Pelvis_tip_jnt/Tail_FK_comp/Tail_01_jnt/Tail_02_jnt/Tail_03_jnt/Tail_04_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/Pelvis_tip_jnt/Tail_FK_comp/Tail_01_jnt/Tail_02_jnt/Tail_03_jnt/Tail_04_jnt/Tail_05_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/Pelvis_tip_jnt/Tail_FK_comp/Tail_01_jnt/Tail_02_jnt/Tail_03_jnt/Tail_04_jnt/Tail_05_jnt/Tail_06_tip_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/Pelvis_tip_jnt/Tail_FK_comp/Tail_spline
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/R_BK_Leg_targ
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Pelvis_null/Pelvis_jnt/R_BK_Leg_targ/R_BK_Leg_00_upv
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Head_tip_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Jaw_comp
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Jaw_comp/Jaw_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Jaw_comp/Jaw_jnt/Jaw_tip_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/L_Ear_FK_comp
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/L_Ear_FK_comp/L_Ear_01_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/L_Ear_FK_comp/L_Ear_01_jnt/L_Ear_01_jnt_2
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/L_Ear_FK_comp/L_Ear_01_jnt/L_Ear_01_jnt_2/L_Ear_02_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/L_Ear_FK_comp/L_Ear_01_jnt/L_Ear_01_jnt_2/L_Ear_02_jnt/L_Ear_03_tip_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/L_Ear_FK_comp/L_Ear_SpIK_spline
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Left_brow
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Left_cheek
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Left_eye
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Left_lip
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Nose
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/R_Ear_FK_comp
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/R_Ear_FK_comp/R_Ear_01_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/R_Ear_FK_comp/R_Ear_01_jnt/R_Ear_01_jnt_2
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/R_Ear_FK_comp/R_Ear_01_jnt/R_Ear_01_jnt_2/R_Ear_02_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/R_Ear_FK_comp/R_Ear_01_jnt/R_Ear_01_jnt_2/R_Ear_02_jnt/R_Ear_03_tip_jnt
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/R_Ear_FK_comp/R_Ear_SpIK_spline
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Right_brow
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Right_cheek
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Right_eye
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_01_jnt/Neck_01_jnt_2/Neck_02_tip_jnt/Head_comp/Head_jnt/Right_lip
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_01_jnt/Spine_02_jnt/Spine_03_jnt/Spine_04_jnt/Spine_05_jnt/Spine_06_tip_jnt/Neck_FK_comp/Neck_Spline
+        weight: 1
+      - path: Character/Quadruped_Rig/Spine_comp/Spine_Spline
+        weight: 1
+      - path: Character/Root
+        weight: 1
+      - path: Character/Root/Spine
+        weight: 1
+      - path: Character/Root/Spine/L_Back_Leg
+        weight: 1
+      - path: Character/Root/Spine/L_Front_Leg
+        weight: 1
+      - path: Character/Root/Spine/Neck
+        weight: 1
+      - path: Character/Root/Spine/Neck/Head
+        weight: 1
+      - path: Character/Root/Spine/Neck/Head/Jaw
+        weight: 1
+      - path: Character/Root/Spine/Neck/Head/L_Ear
+        weight: 1
+      - path: Character/Root/Spine/Neck/Head/R_Ear
+        weight: 1
+      - path: Character/Root/Spine/R_Back_Leg
+        weight: 1
+      - path: Character/Root/Spine/R_Front_Leg
+        weight: 1
+      - path: Character/Root/Spine/Tail
+        weight: 1
+      - path: Null
+        weight: 1
+      - path: Null/Body
+        weight: 1
+      - path: Null/Eye_Left
+        weight: 1
+      - path: Null/Eye_Left/Oog_L
+        weight: 1
+      - path: Null/Eye_Right
+        weight: 1
+      - path: Null/Eye_Right/Oog_R
+        weight: 1
+      - path: Null/Halsband
+        weight: 1
+      - path: Null/Skin_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
