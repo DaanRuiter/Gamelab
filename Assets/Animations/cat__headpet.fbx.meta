@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: 7aeca64c95d3bf94c8d5cb9b1a98796d
+timeCreated: 1431500670
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: back
+    100002: Body
+    100004: Brow_left
+    100006: Brow_right
+    100008: CAT
+    100010: //RootNode
+    100012: chest
+    100014: collar
+    100016: collar.Goal
+    100018: CONTROLERS
+    100020: Eye_Left
+    100022: Eye_Right
+    100024: face
+    100026: Halsband
+    100028: head
+    100030: L_ankle
+    100032: L_ankle.Goal
+    100034: L_elbow
+    100036: L_foot
+    100038: L_hip
+    100040: L_knee
+    100042: L_paw
+    100044: L_paw.Goal
+    100046: L_shoulder
+    100048: L_toe
+    100050: L_toe.Goal
+    100052: L_wrist
+    100054: L_wrist.Goal
+    100056: Left_ear
+    100058: Left_eye
+    100060: Light
+    100062: lip_left
+    100064: lip_right
+    100066: lower_jaw
+    100068: lower_jaw_end
+    100070: neck
+    100072: Oog L
+    100074: Oog R
+    100076: Pelvis
+    100078: R_ankle
+    100080: R_ankle.Goal
+    100082: R_elbow
+    100084: R_foot
+    100086: R_hip
+    100088: R_knee
+    100090: R_paw
+    100092: R_paw.Goal
+    100094: R_shoulder
+    100096: R_toe
+    100098: R_toe.Goal
+    100100: R_wrist
+    100102: R_wrist.Goal
+    100104: Right_ear
+    100106: Right_eye
+    100108: Skin
+    100110: snout
+    100112: tail02
+    100114: tail03
+    100116: tail04
+    100118: tail_end
+    100120: tail_end.Goal
+    100122: tail_start
+    400000: back
+    400002: Body
+    400004: Brow_left
+    400006: Brow_right
+    400008: CAT
+    400010: //RootNode
+    400012: chest
+    400014: collar
+    400016: collar.Goal
+    400018: CONTROLERS
+    400020: Eye_Left
+    400022: Eye_Right
+    400024: face
+    400026: Halsband
+    400028: head
+    400030: L_ankle
+    400032: L_ankle.Goal
+    400034: L_elbow
+    400036: L_foot
+    400038: L_hip
+    400040: L_knee
+    400042: L_paw
+    400044: L_paw.Goal
+    400046: L_shoulder
+    400048: L_toe
+    400050: L_toe.Goal
+    400052: L_wrist
+    400054: L_wrist.Goal
+    400056: Left_ear
+    400058: Left_eye
+    400060: Light
+    400062: lip_left
+    400064: lip_right
+    400066: lower_jaw
+    400068: lower_jaw_end
+    400070: neck
+    400072: Oog L
+    400074: Oog R
+    400076: Pelvis
+    400078: R_ankle
+    400080: R_ankle.Goal
+    400082: R_elbow
+    400084: R_foot
+    400086: R_hip
+    400088: R_knee
+    400090: R_paw
+    400092: R_paw.Goal
+    400094: R_shoulder
+    400096: R_toe
+    400098: R_toe.Goal
+    400100: R_wrist
+    400102: R_wrist.Goal
+    400104: Right_ear
+    400106: Right_eye
+    400108: Skin
+    400110: snout
+    400112: tail02
+    400114: tail03
+    400116: tail04
+    400118: tail_end
+    400120: tail_end.Goal
+    400122: tail_start
+    4300000: Body
+    4300002: Oog L
+    4300004: Oog R
+    4300006: Halsband
+    7400000: CatPetting
+    9500000: //RootNode
+    13700000: Body
+    13700002: Halsband
+    13700004: Oog L
+    13700006: Oog R
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: CatPetting
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CAT
+        weight: 1
+      - path: CAT/Body
+        weight: 1
+      - path: CAT/Body/Eye_Left
+        weight: 1
+      - path: CAT/Body/Eye_Left/Oog L
+        weight: 1
+      - path: CAT/Body/Eye_Right
+        weight: 1
+      - path: CAT/Body/Eye_Right/Oog R
+        weight: 1
+      - path: CAT/Halsband
+        weight: 1
+      - path: CAT/Pelvis
+        weight: 1
+      - path: CAT/Pelvis/back
+        weight: 1
+      - path: CAT/Pelvis/back/chest
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/L_shoulder
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/L_shoulder/L_elbow
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/L_shoulder/L_elbow/L_wrist
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/L_shoulder/L_elbow/L_wrist/L_paw
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/Brow_left
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/Brow_right
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/Left_ear
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/Left_eye
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/lip_left
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/lip_right
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/lower_jaw
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/lower_jaw/lower_jaw_end
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/Right_ear
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/Right_eye
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/snout
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/R_shoulder
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/R_shoulder/R_elbow
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/R_shoulder/R_elbow/R_wrist
+        weight: 1
+      - path: CAT/Pelvis/back/chest/collar/R_shoulder/R_elbow/R_wrist/R_paw
+        weight: 1
+      - path: CAT/Pelvis/L_hip
+        weight: 1
+      - path: CAT/Pelvis/L_hip/L_knee
+        weight: 1
+      - path: CAT/Pelvis/L_hip/L_knee/L_ankle
+        weight: 1
+      - path: CAT/Pelvis/L_hip/L_knee/L_ankle/L_foot
+        weight: 1
+      - path: CAT/Pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe
+        weight: 1
+      - path: CAT/Pelvis/R_hip
+        weight: 1
+      - path: CAT/Pelvis/R_hip/R_knee
+        weight: 1
+      - path: CAT/Pelvis/R_hip/R_knee/R_ankle
+        weight: 1
+      - path: CAT/Pelvis/R_hip/R_knee/R_ankle/R_foot
+        weight: 1
+      - path: CAT/Pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe
+        weight: 1
+      - path: CAT/Pelvis/tail_start
+        weight: 1
+      - path: CAT/Pelvis/tail_start/tail02
+        weight: 1
+      - path: CAT/Pelvis/tail_start/tail02/tail03
+        weight: 1
+      - path: CAT/Pelvis/tail_start/tail02/tail03/tail04
+        weight: 1
+      - path: CAT/Pelvis/tail_start/tail02/tail03/tail04/tail_end
+        weight: 1
+      - path: CAT/Skin
+        weight: 1
+      - path: collar.Goal
+        weight: 1
+      - path: collar.Goal/L_paw.Goal
+        weight: 1
+      - path: collar.Goal/L_paw.Goal/L_wrist.Goal
+        weight: 1
+      - path: collar.Goal/R_paw.Goal
+        weight: 1
+      - path: collar.Goal/R_paw.Goal/R_wrist.Goal
+        weight: 1
+      - path: CONTROLERS
+        weight: 1
+      - path: L_toe.Goal
+        weight: 1
+      - path: L_toe.Goal/L_ankle.Goal
+        weight: 1
+      - path: Light
+        weight: 1
+      - path: R_toe.Goal
+        weight: 1
+      - path: R_toe.Goal/R_ankle.Goal
+        weight: 1
+      - path: tail_end.Goal
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

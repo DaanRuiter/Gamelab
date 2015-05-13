@@ -31,13 +31,13 @@ public class PetBehavior : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		_speed = 2.5f;
-		_rotationSpeed = 10;
+		_rotationSpeed = 5;
 		_waitingTime = 10;
 		_attentionTime = 10;
 		_attentionSpan = 0;
 		_waitingCooldown = 0;
 		_walkRange = 3;
-		_isSleeping = false;
+		//_isSleeping = false;
 		_node = allNodes[Random.Range(0,allNodes.Length)];
 	}
 	
@@ -65,11 +65,11 @@ public class PetBehavior : MonoBehaviour {
 					EatFood();
 				}
 			}
-			//else if(_petAnimator.GetBool("Eating"))
-			//{
-			//	_petAnimator.SetBool("Eating", false);
-			//	_faceAnimator.SetBool("Eating", false);
-			//}
+			else if(_petAnimator.GetBool("Eating"))
+			{
+				_petAnimator.SetBool("Eating", false);
+				//_faceAnimator.SetBool("Eating", false);
+			}
 		}
 	}
 	public void SetFaceAnimator(bool isBool,string animName,bool boolean)
@@ -91,7 +91,7 @@ public class PetBehavior : MonoBehaviour {
 	private void EatFood()
 	{
 		//TODO: show anim + add Mood
-		//_petAnimator.SetBool("Eating", true);
+		_petAnimator.SetBool("Eating", true);
 		//_faceAnimator.SetBool("Eating", true);
 		_myMood.happyFeeling += 0.1f;
 	}

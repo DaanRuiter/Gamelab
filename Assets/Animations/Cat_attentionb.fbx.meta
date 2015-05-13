@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 076bb850e6c76254c83c52c8f980f623
-timeCreated: 1431500670
+guid: a8e9027a010702f42bee1e7f5d0e3bfc
+timeCreated: 1431500671
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -9,12 +9,12 @@ ModelImporter:
     100002: Body
     100004: Brow_left
     100006: Brow_right
-    100008: CAT_1
+    100008: CAT
     100010: //RootNode
     100012: chest
     100014: collar
-    100016: collar_Goal_1
-    100018: CONTROLERS_1
+    100016: collar_Goal
+    100018: CONTROLERS
     100020: Eye_Left
     100022: Eye_Right
     100024: face
@@ -30,7 +30,7 @@ ModelImporter:
     100044: L_paw_Goal
     100046: L_shoulder
     100048: L_toe
-    100050: L_toe_Goal_1
+    100050: L_toe_Goal
     100052: L_wrist
     100054: L_wrist_Goal
     100056: Left_ear
@@ -53,7 +53,7 @@ ModelImporter:
     100090: R_paw_Goal
     100092: R_shoulder
     100094: R_toe
-    100096: R_toe_Goal_1
+    100096: R_toe_Goal
     100098: R_wrist
     100100: R_wrist_Goal
     100102: Right_ear
@@ -63,18 +63,18 @@ ModelImporter:
     100110: tail03
     100112: tail04
     100114: tail_end
-    100116: tail_end_Goal_1
+    100116: tail_end_Goal
     100118: tail_start
     400000: back
     400002: Body
     400004: Brow_left
     400006: Brow_right
-    400008: CAT_1
+    400008: CAT
     400010: //RootNode
     400012: chest
     400014: collar
-    400016: collar_Goal_1
-    400018: CONTROLERS_1
+    400016: collar_Goal
+    400018: CONTROLERS
     400020: Eye_Left
     400022: Eye_Right
     400024: face
@@ -90,7 +90,7 @@ ModelImporter:
     400044: L_paw_Goal
     400046: L_shoulder
     400048: L_toe
-    400050: L_toe_Goal_1
+    400050: L_toe_Goal
     400052: L_wrist
     400054: L_wrist_Goal
     400056: Left_ear
@@ -113,7 +113,7 @@ ModelImporter:
     400090: R_paw_Goal
     400092: R_shoulder
     400094: R_toe
-    400096: R_toe_Goal_1
+    400096: R_toe_Goal
     400098: R_wrist
     400100: R_wrist_Goal
     400102: Right_ear
@@ -123,13 +123,13 @@ ModelImporter:
     400110: tail03
     400112: tail04
     400114: tail_end
-    400116: tail_end_Goal_1
+    400116: tail_end_Goal
     400118: tail_start
     4300000: Body
     4300002: Oog_L
     4300004: Oog_R
     4300006: Halsband
-    7400000: CatWalking
+    7400000: CatAttention
     9500000: //RootNode
     13700000: Body
     13700002: Halsband
@@ -152,16 +152,16 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: CatWalking
+      name: CatAttention
       takeName: C4D Animation Take
       firstFrame: 0
-      lastFrame: 78
+      lastFrame: 120
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -177,123 +177,123 @@ ModelImporter:
       transformMask:
       - path: 
         weight: 1
-      - path: CAT_1
+      - path: CAT
         weight: 1
-      - path: CAT_1/Body
+      - path: CAT/Body
         weight: 1
-      - path: CAT_1/Body/Eye_Left
+      - path: CAT/Body/Eye_Left
         weight: 1
-      - path: CAT_1/Body/Eye_Left/Oog_L
+      - path: CAT/Body/Eye_Left/Oog_L
         weight: 1
-      - path: CAT_1/Body/Eye_Right
+      - path: CAT/Body/Eye_Right
         weight: 1
-      - path: CAT_1/Body/Eye_Right/Oog_R
+      - path: CAT/Body/Eye_Right/Oog_R
         weight: 1
-      - path: CAT_1/Halsband
+      - path: CAT/Halsband
         weight: 1
-      - path: CAT_1/Pelvis
+      - path: CAT/Pelvis
         weight: 1
-      - path: CAT_1/Pelvis/back
+      - path: CAT/Pelvis/back
         weight: 1
-      - path: CAT_1/Pelvis/back/chest
+      - path: CAT/Pelvis/back/chest
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar
+      - path: CAT/Pelvis/back/chest/collar
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/L_shoulder
+      - path: CAT/Pelvis/back/chest/collar/L_shoulder
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/L_shoulder/L_elbow
+      - path: CAT/Pelvis/back/chest/collar/L_shoulder/L_elbow
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/L_shoulder/L_elbow/L_wrist
+      - path: CAT/Pelvis/back/chest/collar/L_shoulder/L_elbow/L_wrist
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/L_shoulder/L_elbow/L_wrist/L_paw
+      - path: CAT/Pelvis/back/chest/collar/L_shoulder/L_elbow/L_wrist/L_paw
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck
+      - path: CAT/Pelvis/back/chest/collar/neck
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head
+      - path: CAT/Pelvis/back/chest/collar/neck/head
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head/face
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head/face/Brow_left
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/Brow_left
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head/face/Brow_right
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/Brow_right
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head/face/Left_ear
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/Left_ear
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head/face/Left_eye
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/Left_eye
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head/face/lip_left
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/lip_left
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head/face/lip_right
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/lip_right
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head/face/lower_jaw
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/lower_jaw
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head/face/lower_jaw/lower_jaw_end
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/lower_jaw/lower_jaw_end
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head/face/Right_ear
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/Right_ear
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head/face/Right_eye
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/Right_eye
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/neck/head/face/snout
+      - path: CAT/Pelvis/back/chest/collar/neck/head/face/snout
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/R_shoulder
+      - path: CAT/Pelvis/back/chest/collar/R_shoulder
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/R_shoulder/R_elbow
+      - path: CAT/Pelvis/back/chest/collar/R_shoulder/R_elbow
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/R_shoulder/R_elbow/R_wrist
+      - path: CAT/Pelvis/back/chest/collar/R_shoulder/R_elbow/R_wrist
         weight: 1
-      - path: CAT_1/Pelvis/back/chest/collar/R_shoulder/R_elbow/R_wrist/R_paw
+      - path: CAT/Pelvis/back/chest/collar/R_shoulder/R_elbow/R_wrist/R_paw
         weight: 1
-      - path: CAT_1/Pelvis/L_hip
+      - path: CAT/Pelvis/L_hip
         weight: 1
-      - path: CAT_1/Pelvis/L_hip/L_knee
+      - path: CAT/Pelvis/L_hip/L_knee
         weight: 1
-      - path: CAT_1/Pelvis/L_hip/L_knee/L_ankle
+      - path: CAT/Pelvis/L_hip/L_knee/L_ankle
         weight: 1
-      - path: CAT_1/Pelvis/L_hip/L_knee/L_ankle/L_foot
+      - path: CAT/Pelvis/L_hip/L_knee/L_ankle/L_foot
         weight: 1
-      - path: CAT_1/Pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe
+      - path: CAT/Pelvis/L_hip/L_knee/L_ankle/L_foot/L_toe
         weight: 1
-      - path: CAT_1/Pelvis/R_hip
+      - path: CAT/Pelvis/R_hip
         weight: 1
-      - path: CAT_1/Pelvis/R_hip/R_knee
+      - path: CAT/Pelvis/R_hip/R_knee
         weight: 1
-      - path: CAT_1/Pelvis/R_hip/R_knee/R_ankle
+      - path: CAT/Pelvis/R_hip/R_knee/R_ankle
         weight: 1
-      - path: CAT_1/Pelvis/R_hip/R_knee/R_ankle/R_foot
+      - path: CAT/Pelvis/R_hip/R_knee/R_ankle/R_foot
         weight: 1
-      - path: CAT_1/Pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe
+      - path: CAT/Pelvis/R_hip/R_knee/R_ankle/R_foot/R_toe
         weight: 1
-      - path: CAT_1/Pelvis/tail_start
+      - path: CAT/Pelvis/tail_start
         weight: 1
-      - path: CAT_1/Pelvis/tail_start/tail02
+      - path: CAT/Pelvis/tail_start/tail02
         weight: 1
-      - path: CAT_1/Pelvis/tail_start/tail02/tail03
+      - path: CAT/Pelvis/tail_start/tail02/tail03
         weight: 1
-      - path: CAT_1/Pelvis/tail_start/tail02/tail03/tail04
+      - path: CAT/Pelvis/tail_start/tail02/tail03/tail04
         weight: 1
-      - path: CAT_1/Pelvis/tail_start/tail02/tail03/tail04/tail_end
+      - path: CAT/Pelvis/tail_start/tail02/tail03/tail04/tail_end
         weight: 1
-      - path: collar_Goal_1
+      - path: collar_Goal
         weight: 1
-      - path: collar_Goal_1/L_paw_Goal
+      - path: collar_Goal/L_paw_Goal
         weight: 1
-      - path: collar_Goal_1/L_paw_Goal/L_wrist_Goal
+      - path: collar_Goal/L_paw_Goal/L_wrist_Goal
         weight: 1
-      - path: collar_Goal_1/R_paw_Goal
+      - path: collar_Goal/R_paw_Goal
         weight: 1
-      - path: collar_Goal_1/R_paw_Goal/R_wrist_Goal
+      - path: collar_Goal/R_paw_Goal/R_wrist_Goal
         weight: 1
-      - path: CONTROLERS_1
+      - path: CONTROLERS
         weight: 1
-      - path: L_toe_Goal_1
+      - path: L_toe_Goal
         weight: 1
-      - path: L_toe_Goal_1/L_ankle_Goal
+      - path: L_toe_Goal/L_ankle_Goal
         weight: 1
-      - path: R_toe_Goal_1
+      - path: R_toe_Goal
         weight: 1
-      - path: R_toe_Goal_1/R_ankle_Goal
+      - path: R_toe_Goal/R_ankle_Goal
         weight: 1
-      - path: tail_end_Goal_1
+      - path: tail_end_Goal
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}

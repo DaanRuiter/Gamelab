@@ -13,7 +13,7 @@ public class CatTextureChanger : MonoBehaviour {
 		Transform catBody;
 		foreach(Transform child in transform)
 		{
-			if(child.name == "Null")
+			if(child.name == "CAT")
 			{
 				catBody = child;
 				Renderer[] allChildrenRenderers = catBody.GetComponentsInChildren<Renderer>();
